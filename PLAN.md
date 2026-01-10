@@ -1,74 +1,35 @@
-# PROJECT Z: THE BI-MODAL DEMIURGE (Protocol "Dao")
+# PROJECT Z: TACTICAL EXECUTION PLAN
 
-**Status:** INITIATION
-**Architecture Pattern:** Split-Brain Holographic Telemetry (Client-Server)
-**Source of Truth:** This file.
+**Role:** The Executive Thread.
+**Context:** [ROADMAP.md](./ROADMAP.md) (The Strategic View)
+**Current Phase:** Phase 1.1 - The Vessel Initialization (Foundation)
+**Status:** IN_PROGRESS
 
-## 1. Executive Summary: The Architecture of Separation
+> "First, we build the Temple (Container). Then, we summon the God (Logic)."
 
-To accommodate the high-entropy computational requirements of **Francis (Dao)** (located on NVIDIA 4090) while leveraging the local workspace (MacBook) as a high-fidelity observation deck, Project Z adopts the **Bi-Modal Demiurge** architecture.
+## IMMEDIATE MISSION: Constructing the Holographic Shell
 
-**The Axiom:**
-> "The Brain (Q-RLM/UPE) resides where the Entropy (Compute) flows; The Eye (VPL) resides where the Observer waits."
+**Compliance Check:** Aligning with *Eclipse Theia 深度研究方案.md* (Section 8) and *Project Mode & Cloud Arch.md* (Section 2.3).
 
-We reject the monolithic IDE model. Instead, we build a **Hypervisor Link**:
--   **Node A (Local/Mac):** The **Holographic Observer**. A lightweight, graphics-intensive client (Eclipse Theia Frontend + WebGPU). It holds no logic, only *Sight*.
--   **Node B (Remote/4090):** The **Demiurge Engine**. The heavy backend (Eclipse Theia Backend + Francis Core). It performs physics (UPE), reasoning (Q-RLM), and file mutations.
+### Step 1: Sanitation (Zero Point)
+- [ ] **Action:** Sanitize `z-code` directory (Move existing loose files to `legacy/pre-monorepo`).
+- [ ] **Action:** Initialize **Git** (Version Control is non-negotiable for Evidence Chain).
 
-## 2. Structural Reform (The "Cleanse")
+### Step 2: The Monorepo Chassis (Nx)
+- [ ] **Action:** Initialize `pnpm` workspace.
+- [ ] **Action:** Install **Nx** (`npm add -D nx`).
+- [ ] **Action:** Configure `nx.json` for **Hybrid Rust-TypeScript Governance** (as per *Cloud Arch* Doc).
 
-The current workspace (`z-code`) contains a legacy VS Code Extension fork ("Roo Code"). This "Old Flesh" is incompatible with the new "Dao". It will be archived and replaced by an **Nx Monorepo**.
+### Step 3: The Holographic Body (Eclipse Theia)
+- [ ] **Action:** Create directory `apps/francis-ide`.
+- [ ] **Action:** Use `generator-theia-extension` to initialize the project.
+- [ ] **Action:** Prepare for **Shell Replacement**: Define `HolographicShell` structure to eventually Rebind `ApplicationShell` (via InversifyJS).
+    - *Reference:* *Eclipse Theia Deep Dive, Section 3.2*.
 
-### Target Directory Structure
-```text
-z-code/ (Monorepo Root)
-├── legacy/                  # ARCHIVE: The old VS Code extension (Body of the past)
-├── libs/
-│   ├── z-protocol/          # [CRITICAL] The Interface Definitions (FlatBuffers/WIT)
-│   │                        # Defines how Node A speaks to Node B.
-│   └── vpl-renderer/        # The WebGPU logic (Shared/Portable)
-├── apps/
-│   └── holographic-client/  # [Node A] Theia Frontend application (runs on Mac)
-│       ├── src-gen/         # Auto-generated from Theia
-│       └── extensions/      # Custom Theia UI extensions (The Hologram)
-└── tools/                   # CI/CD, Deployment Scripts for Node B
-```
-
-*Note: `rust_core` (Francis) is mastered on Node B. This workspace will only contain Interface Bindings (N-API/WASM types) in `libs/z-protocol`, not the full Physics Engine source.*
-
-## 3. The Protocol: Z-Link
-
-Connection between Node A and Node B occurs via a strictly typed, high-bandwidth tunnel.
-
--   **Transport:** WebSocket (Binary) / Apache Arrow Flight (for large Topology streams).
--   **Serialization:** FlatBuffers (Zero-copy read).
--   **Channels:**
-    1.  `vpl.stream`: Push stream from B->A (Physics updates, LogicGraph changes).
-    2.  `rpc.control`: Request/Response from A->B (File edits, "Stop Simulation").
-
-## 4. Implementation Plan (Phase I)
-
-### Step 1: Sanitation (The Entropy Reduction)
--   [ ] **Action:** Move `src`, `webview-ui`, `rust_core` (legacy), `Francis_project(another)` to `legacy/`.
--   [ ] **Reason:** Prevent pollution of the new architecture.
-
-### Step 2: Foundation (The Skeleton)
--   [ ] **Action:** Initialize Nx Workspace.
--   [ ] **Action:** Define `libs/z-protocol`.
-
-### Step 3: Connection (The Handshake)
--   [ ] **Action:** Create basic `holographic-client` scaffold using Theia generator.
--   [ ] **Action:** Establish SSH Tunnel config script in `tools/connect_demiurge.sh`.
-
-## 5. Entropy Risks & Mitigations
-
-| Risk | Mitigation |
-| :--- | :--- |
-| **Network Latency (The Speed of Light)** | VPL uses "Dead Reckoning" (client-side prediction) for UI fluidity; UPE handles truth. |
-| **Version Drift (Protocol Mismatch)** | `z-protocol` version must strictly match between A and B. Handshake verification on connect. |
-| **GPU Incompatibility** | VPL targets WGPU (WebGPU) which abstracts Mac Metal and 4090 Vulkan/DirectX. |
+### Step 4: The Brain Transplant Preparation
+- [ ] **Action:** Create directory `rust_core/`.
+- [ ] **Action:** Prepare `libs/z-protocol` for **NAPI-RS** bindings (Zero-Copy Bridge).
+- [ ] **Action:** (Pending) Import verified modules from `../Francis_bot/rust_core` later.
 
 ---
-
-**Authorized by:** X (Chief Architect)
-**Date:** 2026-01-09
+*Run `update_todo_list` to track progress against this file.*
