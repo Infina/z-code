@@ -1,0 +1,6 @@
+{
+  "name": "z-protocol",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Bi-Modal Protocol Schema (WIT/FlatBuffers)"
+}
