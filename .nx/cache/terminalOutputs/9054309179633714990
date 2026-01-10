@@ -1,0 +1,252 @@
+
+> francis-ide-browser@0.0.1 build C:\Users\dev\z-code\apps\francis-ide-browser
+> npm run bundle
+
+
+> francis-ide-browser@0.0.1 bundle
+> npm run rebuild && theia build --mode development
+
+
+> francis-ide-browser@0.0.1 rebuild
+> theia rebuild:browser --cacheRoot ..
+
+native node modules are already rebuilt for browser
+assets by status 1.96 MiB [1m[32m[cached][39m[22m 14 assets
+assets by path [1m[32m.[39m[22m 24.2 MiB
+  assets by chunk 955 KiB (id hint: vendors)
+    asset [1m[32mvendors-node_modules_pnpm_theia_workspace_1_67_0__th_1b835a16aa2bc6cef8590775dc9bac3a_node_mo-da1969.js[39m[22m 521 KiB [1m[32m[emitted][39m[22m (id hint: vendors) 2 related assets
+    asset [1m[32mvendors-node_modules_pnpm_theia_messages_1_67_0__the_3d487382759494a05b79bbb7496291fc_node_mo-887ff7.js[39m[22m 168 KiB [1m[32m[emitted][39m[22m (id hint: vendors) 2 related assets
+    asset [1m[32mvendors-node_modules_pnpm_theia_filesystem_1_67_0__t_1e7321965346ac09270ade36c2e9e5fe_node_mo-e4da4d.js[39m[22m 107 KiB [1m[32m[emitted][39m[22m (id hint: vendors) 2 related assets
+    asset [1m[32mvendors-node_modules_pnpm_theia_filesystem_1_67_0__t_1e7321965346ac09270ade36c2e9e5fe_node_mo-c8c7c9.js[39m[22m 51 KiB [1m[32m[emitted][39m[22m (id hint: vendors) 2 related assets
+    + 4 assets
+  asset [1m[32mbundle.js[39m[22m 23.3 MiB [1m[32m[emitted][39m[22m (name: bundle) 2 related assets
+  asset [1m[32mnode_modules_pnpm_theia_core_1_67_0__theia_electron_1_67_0_electron_37_2_1__node_modules_thei-27e017.js[39m[22m 11.2 KiB [1m[32m[emitted][39m[22m 2 related assets
+  asset [1m[32mnode_modules_pnpm_theia_filesystem_1_67_0__t_1e7321965346ac09270ade36c2e9e5fe_node_modules_th-f09324.js[39m[22m 5.08 KiB [1m[32m[emitted][39m[22m 2 related assets
+  asset [1m[32mlibs_francis-ide-extension_lib_browser_francis-ide-frontend-module_js.js[39m[22m 4.47 KiB [1m[32m[emitted][39m[22m 2 related assets
+  asset [1m[32mnode_modules_pnpm_theia_core_1_67_0__theia_electron_1_67_0_electron_37_2_1__node_modules_thei-a362c0.js[39m[22m 3.95 KiB [1m[32m[emitted][39m[22m 2 related assets
+  asset [1m[32mnode_modules_pnpm_theia_core_1_67_0__theia_electron_1_67_0_electron_37_2_1__node_modules_thei-98ebef.js[39m[22m 3.16 KiB [1m[32m[emitted][39m[22m 2 related assets
+  asset [1m[32msecondary-window.html[39m[22m 531 bytes [1m[33m[compared for emit][39m[22m [from: src-gen/frontend/secondary-window.html] [1m[32m[copied][39m[22m 1 related asset
+Entrypoint [1mbundle[39m[22m 23.3 MiB (31.1 MiB) = [1m[32mbundle.js[39m[22m 15 auxiliary assets
+Entrypoint [1meditor.worker[39m[22m =
+runtime modules 7.33 KiB 12 modules
+orphan modules 14.1 KiB [1m[33m[orphan][39m[22m 7 modules
+javascript modules 18.5 MiB 1952 modules
+json modules 1.93 MiB
+  modules by path [1m../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2...(truncated)[39m[22m 1.8 MiB 50 modules
+  modules by path [1m../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3a...(truncated)[39m[22m 34.5 KiB 10 modules
+  modules by path [1m../../node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/[39m[22m 86.7 KiB 8 modules
+  modules by path [1m../../node_modules/.pnpm/ajv@6.12.6/node_modules/ajv/lib/[39m[22m 3.12 KiB 2 modules
+asset modules 1.96 MiB (asset) 4.04 KiB (javascript)
+  modules by path [1m../../node_modules/.pnpm/[39m[22m 1.96 MiB (asset) 588 bytes (javascript) 14 modules
+  modules by mime type [1mimage/svg+xml[39m[22m 3.2 KiB
+    [1mdata:image/svg+xml;base64,PHN2ZyB3aWR0aD0i..[39m[22m 1.6 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1mdata:image/svg+xml;base64,PHN2ZyB3aWR0aD0i..[39m[22m 1.6 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  [1mdata:image/png;base64,iVBORw0KGgoAAAAN..[39m[22m 268 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  
+
+[1m[33mWARNING[39m[22m in [1m./src-gen/frontend/index.js[39m[22m [1m[32m79:30-110[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@theia/variable-resolver/lib/browser/variable-resolver-frontend-module' in 'C:\Users\dev\z-code\apps\francis-ide-browser\src-gen\frontend'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./src-gen/frontend/index.js[39m[22m [1m[32m86:30-98[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@theia/markers/lib/browser/problem/problem-frontend-module' in 'C:\Users\dev\z-code\apps\francis-ide-browser\src-gen\frontend'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./src-gen/frontend/index.js[39m[22m [1m[32m87:30-100[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@theia/outline-view/lib/browser/outline-view-frontend-module' in 'C:\Users\dev\z-code\apps\francis-ide-browser\src-gen\frontend'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/common/worker/simpleWorker.js[39m[22m [1m[32m439:56-66[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/services/editorWorkerService.js 19:26-80
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices.js 72:33-89
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 65:29-117
+ @ ./src-gen/frontend/index.js 88:30-88
+
+[1m[33mWARNING[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/common/services/editorSimpleWorker.js[39m[22m [1m[32m420:53-63[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/services/editorWorkerService.js 23:32-86
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices.js 72:33-89
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 65:29-117
+ @ ./src-gen/frontend/index.js 88:30-88
+
+5 warnings have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/core/lib/browser/tree/tree-view-welcome-widget.js[39m[22m [1m[32m28:21-42[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'umd-compat-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/core/lib/browser/tree/index.js 26:21-58
+ @ ../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/core/lib/browser/index.js 29:21-38
+ @ ./src-gen/frontend/index.js 63:36-70
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/core/lib/common/lsp-types.js[39m[22m [1m[32m19:41-82[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'umd-compat-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/core/lib/common/index.js 33:21-43
+ @ ../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/core/lib/browser/frontend-application-module.js 25:17-37
+ @ ./src-gen/frontend/index.js 64:42-104
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/core/lib/common/severity.js[39m[22m [1m[32m23:41-82[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'umd-compat-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+editor@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/editor/lib/browser/language-status/editor-language-status-service.js 29:19-61
+ @ ../../node_modules/.pnpm/@theia+editor@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/editor/lib/browser/editor-frontend-module.js 38:41-100
+ @ ./src-gen/frontend/index.js 80:30-88
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/core/lib/common/uri.js[39m[22m [1m[32m19:21-42[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'umd-compat-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/core/lib/browser/endpoint.js 19:14-38
+ @ ../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/core/lib/browser/index.js 31:21-42
+ @ ./src-gen/frontend/index.js 63:36-70
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/core/shared/vscode-languageserver-protocol/index.js[39m[22m [1m[32m1:0-58[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'umd-compat-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/workspace-symbol-command.js 26:41-101
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 55:35-72
+ @ ./src-gen/frontend/index.js 88:30-88
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/core/shared/vscode-uri/index.js[39m[22m [1m[32m1:0-38[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'umd-compat-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-command.js 21:21-61
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 26:25-52
+ @ ./src-gen/frontend/index.js 88:30-88
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-snippet-suggest-provider.js[39m[22m [1m[32m25:20-43[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'umd-compat-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 43:42-86
+ @ ./src-gen/frontend/index.js 88:30-88
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-theming-service.js[39m[22m [1m[32m23:20-43[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'umd-compat-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 53:33-68
+ @ ./src-gen/frontend/index.js 88:30-88
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+workspace@1.67.0_@th_1b835a16aa2bc6cef8590775dc9bac3a/node_modules/@theia/workspace/lib/browser/workspace-service.js[39m[22m [1m[32m30:20-43[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'umd-compat-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+workspace@1.67.0_@th_1b835a16aa2bc6cef8590775dc9bac3a/node_modules/@theia/workspace/lib/browser/workspace-frontend-module.js 27:28-58
+ @ ./src-gen/frontend/index.js 85:30-94
+
+[1m[31mERROR[39m[22m in [1m[32meditor.worker[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@theia/monaco-editor-core/esm/vs/editor/editor.worker.js' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+
+[1m[33m10 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.[39m[22m
+
+webpack 5.104.1 compiled with [1m[31m10 errors[39m[22m and [1m[33m5 warnings[39m[22m in 11522 ms
+
+assets by status 699 KiB [1m[32m[cached][39m[22m 3 assets
+assets by info 1.28 MiB [1m[32m[immutable][39m[22m
+  assets by path [1m[32m*.woff2[39m[22m 256 KiB
+    asset [1m[32m2f64b833219dc8433424.woff2[39m[22m 88.6 KiB [1m[32m[emitted][39m[22m [1m[32m[immutable][39m[22m [from: ../../node_modules/.pnpm/file-icons-js@1.0.3/node_modules/file-icons-js/fonts/file-icons.woff2] (auxiliary name: secondary-window)
+    + 4 assets
+  assets by path [1m[32m*.ttf[39m[22m 363 KiB
+    asset [1m[32m1e59d2330b4c6deb84b3.ttf?v=4.7.0[39m[22m 162 KiB [1m[32m[emitted][39m[22m [1m[32m[immutable][39m[22m [from: ../../node_modules/.pnpm/font-awesome@4.7.0/node_modules/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0] (auxiliary name: secondary-window)
+    asset [1m[32m1486698f10561040d3f7.ttf?c7330ef9199d97dc5b8aae3449a5dc27[39m[22m 120 KiB [1m[32m[emitted][39m[22m [1m[32m[immutable][39m[22m [from: ../../node_modules/.pnpm/@vscode+codicons@0.0.44/node_modules/@vscode/codicons/dist/codicon.ttf?c7330ef9199d97dc5b8aae3449a5dc27] (auxiliary name: secondary-window)
+    asset [1m[32m426baef8ebd99bb782f4.ttf[39m[22m 80.7 KiB [1m[32m[emitted][39m[22m [1m[32m[immutable][39m[22m [from: ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/codicons/codicon/codicon.ttf] (auxiliary name: secondary-window)
+  asset [1m[32mc1e38fd9e0e74ba58f7a.svg?v=4.7.0[39m[22m 434 KiB [1m[32m[emitted][39m[22m [1m[32m[immutable][39m[22m [from: ../../node_modules/.pnpm/font-awesome@4.7.0/node_modules/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0] (auxiliary name: secondary-window)
+  asset [1m[32m8b43027f47b20503057d.eot?v=4.7.0[39m[22m 162 KiB [1m[32m[emitted][39m[22m [1m[32m[immutable][39m[22m [from: ../../node_modules/.pnpm/font-awesome@4.7.0/node_modules/font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0] (auxiliary name: secondary-window)
+  asset [1m[32mf691f37e57f04c152e23.woff?v=4.7.0[39m[22m 95.7 KiB [1m[32m[emitted][39m[22m [1m[32m[immutable][39m[22m [from: ../../node_modules/.pnpm/font-awesome@4.7.0/node_modules/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0] (auxiliary name: secondary-window)
+assets by chunk 22.1 MiB (name: secondary-window)
+  asset [1m[32msecondary-window.js[39m[22m 21.5 MiB [1m[32m[emitted][39m[22m (name: secondary-window) 1 related asset
+  asset [1m[32msecondary-window.css[39m[22m 566 KiB [1m[32m[emitted][39m[22m (name: secondary-window) 1 related asset
+Entrypoint [1msecondary-window[39m[22m 22.1 MiB (22.8 MiB) = [1m[32msecondary-window.css[39m[22m 566 KiB [1m[32msecondary-window.js[39m[22m 21.5 MiB 16 auxiliary assets
+runtime modules 101 KiB 447 modules
+orphan modules 1.21 MiB (javascript) 1.51 MiB (asset) [1m[33m[orphan][39m[22m 172 modules
+javascript modules 16.9 MiB 1722 modules
+css modules 457 KiB 146 modules
+json modules 1.92 MiB
+  modules by path [1m../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2...(truncated)[39m[22m 1.8 MiB 50 modules
+  modules by path [1m../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3a...(truncated)[39m[22m 34.5 KiB 10 modules
+  modules by path [1m../../node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/[39m[22m 86.7 KiB
+    [1m../../node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/encodings/tabl...(truncated)[39m[22m 8.78 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    + 7 modules
+[1m../../node_modules/.pnpm/vscode-oniguruma@2.0.1/node_modules/vscode-oniguruma/re...(truncated)[39m[22m 462 KiB (asset) 42 bytes (javascript) [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  
+
+[1m[33mWARNING[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/common/worker/simpleWorker.js[39m[22m [1m[32m439:56-66[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/services/editorWorkerService.js 19:26-80
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices.js 72:33-89
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 65:29-117
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[33mWARNING[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/common/services/editorSimpleWorker.js[39m[22m [1m[32m420:53-63[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/services/editorWorkerService.js 23:32-86
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices.js 72:33-89
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 65:29-117
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+2 warnings have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.104.1 compiled with [1m[33m2 warnings[39m[22m in 6006 ms
+
+assets by chunk 9.19 MiB (id hint: vendors)
+  asset [1m[32mvendors-node_modules_pnpm_stroncium_procfs_1_2_1_node_modules_stroncium_procfs_lib_parsers_cg-0e92f1.js[39m[22m 5.53 MiB [1m[32m[emitted][39m[22m (id hint: vendors) 1 related asset
+  asset [1m[32mvendors-node_modules_pnpm_theia_core_1_67_0__theia_electron_1_67_0_electron_37_2_1__node_modu-ea4661.js[39m[22m 3.17 MiB [1m[32m[emitted][39m[22m (id hint: vendors) 1 related asset
+  asset [1m[32mvendors-node_modules_pnpm_theia_filesystem_1_67_0__t_1e7321965346ac09270ade36c2e9e5fe_node_mo-0d3c0f.js[39m[22m 486 KiB [1m[32m[emitted][39m[22m (id hint: vendors) 1 related asset
+  asset [1m[32mvendors-node_modules_pnpm_theia_core_1_67_0__theia_electron_1_67_0_electron_37_2_1__node_modu-fa9482.js[39m[22m 23.2 KiB [1m[32m[emitted][39m[22m (id hint: vendors) 1 related asset
+asset [1m[32mmain.js[39m[22m 39.6 KiB [1m[32m[emitted][39m[22m (name: main) 1 related asset
+asset [1m[32mparcel-watcher.js[39m[22m 19.2 KiB [1m[32m[emitted][39m[22m (name: parcel-watcher) 1 related asset
+asset [1m[32mipc-bootstrap.js[39m[22m 17.9 KiB [1m[32m[emitted][39m[22m (name: ipc-bootstrap) 1 related asset
+Entrypoint [1mmain[39m[22m 9.23 MiB (7.1 MiB) = [1m[32mvendors-node_modules_pnpm_theia_core_1_67_0__theia_electron_1_67_0_electron_37_2_1__node_modu-ea4661.js[39m[22m 3.17 MiB [1m[32mvendors-node_modules_pnpm_theia_filesystem_1_67_0__t_1e7321965346ac09270ade36c2e9e5fe_node_mo-0d3c0f.js[39m[22m 486 KiB [1m[32mvendors-node_modules_pnpm_theia_core_1_67_0__theia_electron_1_67_0_electron_37_2_1__node_modu-fa9482.js[39m[22m 23.2 KiB [1m[32mvendors-node_modules_pnpm_stroncium_procfs_1_2_1_node_modules_stroncium_procfs_lib_parsers_cg-0e92f1.js[39m[22m 5.53 MiB [1m[32mmain.js[39m[22m 39.6 KiB 5 auxiliary assets
+Entrypoint [1mipc-bootstrap[39m[22m 3.21 MiB (1.9 MiB) = [1m[32mvendors-node_modules_pnpm_theia_core_1_67_0__theia_electron_1_67_0_electron_37_2_1__node_modu-ea4661.js[39m[22m 3.17 MiB [1m[32mvendors-node_modules_pnpm_theia_core_1_67_0__theia_electron_1_67_0_electron_37_2_1__node_modu-fa9482.js[39m[22m 23.2 KiB [1m[32mipc-bootstrap.js[39m[22m 17.9 KiB 3 auxiliary assets
+Entrypoint [1mparcel-watcher[39m[22m 3.66 MiB (2.45 MiB) = [1m[32mvendors-node_modules_pnpm_theia_core_1_67_0__theia_electron_1_67_0_electron_37_2_1__node_modu-ea4661.js[39m[22m 3.17 MiB [1m[32mvendors-node_modules_pnpm_theia_filesystem_1_67_0__t_1e7321965346ac09270ade36c2e9e5fe_node_mo-0d3c0f.js[39m[22m 486 KiB [1m[32mparcel-watcher.js[39m[22m 19.2 KiB 3 auxiliary assets
+runtime modules 11.6 KiB 29 modules
+cacheable modules 7.93 MiB
+  javascript modules 5.12 MiB
+    modules by path [1m../../node_modules/.pnpm/[39m[22m 5.12 MiB 1054 modules
+    modules by path [1m./src-gen/backend/*.js[39m[22m 4.3 KiB 2 modules
+  json modules 2.8 MiB 37 modules
++ 46 modules
+
+[1m[33mWARNING[39m[22m in [1m./src-gen/backend/server.js[39m[22m [1m[32m60:19-76[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@theia/markers/lib/node/problem-backend-module' in 'C:\Users\dev\z-code\apps\francis-ide-browser\src-gen\backend'[39m[22m
+ @ ./src-gen/backend/main.js 58:21-40
+
+1 warning has detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/drivelist@12.0.2/node_modules/drivelist/js/index.js[39m[22m [1m[32m22:17-36[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Cannot find module 'drivelist/build/Release/drivelist.node'
+Require stack:
+- C:\Users\dev\z-code\node_modules\.pnpm\@theia+native-webpack-plugin@1.67.0_webpack-cli@4.7.0\node_modules\@theia\native-webpack-plugin\lib\native-webpack-plugin.js
+- C:\Users\dev\z-code\node_modules\.pnpm\@theia+native-webpack-plugin@1.67.0_webpack-cli@4.7.0\node_modules\@theia\native-webpack-plugin\lib\index.js
+- C:\Users\dev\z-code\apps\francis-ide-browser\gen-webpack.node.config.js
+- C:\Users\dev\z-code\apps\francis-ide-browser\webpack.config.js
+- C:\Users\dev\z-code\node_modules\.pnpm\webpack-cli@4.7.0_webpack@5.104.1\node_modules\webpack-cli\lib\webpack-cli.js
+- C:\Users\dev\z-code\node_modules\.pnpm\webpack-cli@4.7.0_webpack@5.104.1\node_modules\webpack-cli\lib\bootstrap.js
+- C:\Users\dev\z-code\node_modules\.pnpm\webpack-cli@4.7.0_webpack@5.104.1\node_modules\webpack-cli\bin\cli.js
+- C:\Users\dev\z-code\node_modules\.pnpm\webpack@5.104.1_webpack-cli@4.7.0\node_modules\webpack\bin\webpack.js[39m[22m
+ @ ../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/core/lib/node/env-variables/env-variables-server.js 23:18-38
+ @ ../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/core/lib/node/env-variables/index.js 19:21-54
+ @ ../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/core/lib/node/backend-application-module.js 29:24-50
+ @ ./src-gen/backend/server.js 14:37-95
+ @ ./src-gen/backend/main.js 58:21-40
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/keytar@7.9.0/node_modules/keytar/lib/keytar.js[39m[22m [1m[32m1:13-52[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../build/Release/keytar.node' in 'C:\Users\dev\z-code\node_modules\.pnpm\keytar@7.9.0\node_modules\keytar\lib'[39m[22m
+resolve '../build/Release/keytar.node' in 'C:\Users\dev\z-code\node_modules\.pnpm\keytar@7.9.0\node_modules\keytar\lib'
+  using description file: C:\Users\dev\z-code\node_modules\.pnpm\keytar@7.9.0\node_modules\keytar\package.json (relative path: ./lib)
+    using description file: C:\Users\dev\z-code\node_modules\.pnpm\keytar@7.9.0\node_modules\keytar\package.json (relative path: ./build/Release/keytar.node)
+      no extension
+[1m[31m        C:\Users\dev\z-code\node_modules\.pnpm\keytar@7.9.0\node_modules\keytar\build\Release\keytar.node doesn't exist[39m[22m
+      .js
+[1m[31m        C:\Users\dev\z-code\node_modules\.pnpm\keytar@7.9.0\node_modules\keytar\build\Release\keytar.node.js doesn't exist[39m[22m
+      .json
+[1m[31m        C:\Users\dev\z-code\node_modules\.pnpm\keytar@7.9.0\node_modules\keytar\build\Release\keytar.node.json doesn't exist[39m[22m
+      .wasm
+[1m[31m        C:\Users\dev\z-code\node_modules\.pnpm\keytar@7.9.0\node_modules\keytar\build\Release\keytar.node.wasm doesn't exist[39m[22m
+      .node
+[1m[31m        C:\Users\dev\z-code\node_modules\.pnpm\keytar@7.9.0\node_modules\keytar\build\Release\keytar.node.node doesn't exist[39m[22m
+      as directory
+[1m[31m        C:\Users\dev\z-code\node_modules\.pnpm\keytar@7.9.0\node_modules\keytar\build\Release\keytar.node doesn't exist[39m[22m
+ @ ../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/core/lib/node/key-store-server.js 87:75-92
+ @ ../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/core/lib/node/backend-application-module.js 34:27-56
+ @ ./src-gen/backend/server.js 14:37-95
+ @ ./src-gen/backend/main.js 58:21-40
+
+webpack 5.104.1 compiled with [1m[31m2 errors[39m[22m and [1m[33m1 warning[39m[22m in 7004 ms
+
+Error: webpack exited with an unexpected code: 1.
+    at ChildProcess.<anonymous> (C:\Users\dev\z-code\node_modules\[4m.pnpm[24m\@theia+application-manager@_6afe8235836306518c511441ced89614\node_modules\[4m@theia[24m\application-manager\lib\application-process.js:86:28)
+[90m    at ChildProcess.emit (node:events:518:28)[39m
+[90m    at maybeClose (node:internal/child_process:1105:16)[39m
+[90m    at ChildProcess._handle.onexit (node:internal/child_process:305:5)[39m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m

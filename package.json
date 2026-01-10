@@ -5,13 +5,45 @@
   "main": "index.js",
   "scripts": {
     "nx": "nx",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "nx run-many -t build",
+    "test": "nx run-many -t test"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.28.0",
   "devDependencies": {
-    "nx": "^22.3.3"
+    "@theia/ffmpeg": "^1.67.0",
+    "css-loader": "^7.1.2",
+    "electron": "38.4.0",
+    "electron-rebuild": "^3.2.9",
+    "file-loader": "^6.2.0",
+    "node-loader": "^2.1.0",
+    "nx": "^22.3.3",
+    "source-map-loader": "^5.0.0",
+    "style-loader": "^4.0.0",
+    "umd-compat-loader": "^2.1.2",
+    "url-loader": "^4.1.1"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "electron",
+      "keytar",
+      "drivelist",
+      "node-pty",
+      "native-keymap",
+      "@theia/ffmpeg"
+    ]
+  },
+  "dependencies": {
+    "@theia/monaco-editor-core": "^1.96.302",
+    "@theia/variable-resolver": "^1.67.0",
+    "bindings": "^1.5.0",
+    "drivelist": "^12.0.2",
+    "keytar": "^7.9.0",
+    "native-keymap": "^3.3.8",
+    "node-pty": "^1.1.0",
+    "reflect-metadata": "^0.2.2",
+    "yargs": "^17.7.2"
   }
 }

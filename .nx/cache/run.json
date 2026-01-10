@@ -1,0 +1,43 @@
+{
+  "run": {
+    "command": "nx run-many -t build",
+    "startTime": "2026-01-10T11:57:54.654Z",
+    "endTime": "2026-01-10T11:58:12.413Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "francis-ide-extension:build",
+      "target": "build",
+      "projectName": "francis-ide-extension",
+      "hash": "2398368671594894727",
+      "startTime": "2026-01-10T11:57:54.671Z",
+      "endTime": "2026-01-10T11:57:56.281Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "francis-ide-electron:build",
+      "target": "build",
+      "projectName": "francis-ide-electron",
+      "hash": "17672513004633018968",
+      "startTime": "2026-01-10T11:57:56.290Z",
+      "endTime": "2026-01-10T11:58:01.053Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    },
+    {
+      "taskId": "francis-ide-browser:build",
+      "target": "build",
+      "projectName": "francis-ide-browser",
+      "hash": "1463143126397316977",
+      "startTime": "2026-01-10T11:57:56.290Z",
+      "endTime": "2026-01-10T11:58:12.411Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}

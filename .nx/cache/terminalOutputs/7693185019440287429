@@ -1,0 +1,1159 @@
+
+> francis-ide-browser@0.0.1 build C:\Users\dev\z-code\apps\francis-ide-browser
+> npm run bundle
+
+
+> francis-ide-browser@0.0.1 bundle
+> npm run rebuild && theia build --mode development
+
+
+> francis-ide-browser@0.0.1 rebuild
+> theia rebuild:browser --cacheRoot ..
+
+native node modules are already rebuilt for browser
+asset [1m[32msecondary-window.html[39m[22m 531 bytes [1m[32m[emitted][39m[22m [from: src-gen/frontend/secondary-window.html] [1m[32m[copied][39m[22m 1 related asset
+Entrypoint [1mbundle[39m[22m =
+Entrypoint [1meditor.worker[39m[22m =
+  
+
+[1m[31mERROR[39m[22m in [1m[32mbundle[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'source-map-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+resolve 'source-map-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'
+  Parsed request is a module
+  using description file: C:\Users\dev\z-code\apps\francis-ide-browser\package.json (relative path: .)
+    resolve as module
+      looking for modules in C:\Users\dev\z-code\apps\francis-ide-browser\node_modules
+        single file module
+          using description file: C:\Users\dev\z-code\apps\francis-ide-browser\package.json (relative path: ./node_modules/source-map-loader)
+            no extension
+[1m[31m              C:\Users\dev\z-code\apps\francis-ide-browser\node_modules\source-map-loader doesn't exist[39m[22m
+            .js
+[1m[31m              C:\Users\dev\z-code\apps\francis-ide-browser\node_modules\source-map-loader.js doesn't exist[39m[22m
+[1m[31m        C:\Users\dev\z-code\apps\francis-ide-browser\node_modules\source-map-loader doesn't exist[39m[22m
+[1m[31m      C:\Users\dev\z-code\apps\node_modules doesn't exist[39m[22m or is not a directory
+      looking for modules in C:\Users\dev\z-code\node_modules
+        single file module
+          using description file: C:\Users\dev\z-code\package.json (relative path: ./node_modules/source-map-loader)
+            no extension
+[1m[31m              C:\Users\dev\z-code\node_modules\source-map-loader doesn't exist[39m[22m
+            .js
+[1m[31m              C:\Users\dev\z-code\node_modules\source-map-loader.js doesn't exist[39m[22m
+[1m[31m        C:\Users\dev\z-code\node_modules\source-map-loader doesn't exist[39m[22m
+[1m[31m      C:\Users\dev\node_modules doesn't exist[39m[22m or is not a directory
+[1m[31m      C:\Users\node_modules doesn't exist[39m[22m or is not a directory
+[1m[31m      C:\node_modules doesn't exist[39m[22m or is not a directory
+
+[1m[31mERROR[39m[22m in [1m[32meditor.worker[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@theia/monaco-editor-core/esm/vs/editor/editor.worker.js' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+resolve '@theia/monaco-editor-core/esm/vs/editor/editor.worker.js' in 'C:\Users\dev\z-code\apps\francis-ide-browser'
+  Parsed request is a module
+  using description file: C:\Users\dev\z-code\apps\francis-ide-browser\package.json (relative path: .)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      looking for modules in C:\Users\dev\z-code\apps\francis-ide-browser\node_modules
+[1m[31m        C:\Users\dev\z-code\apps\francis-ide-browser\node_modules\@theia\monaco-editor-core doesn't exist[39m[22m
+[1m[31m      C:\Users\dev\z-code\apps\node_modules doesn't exist[39m[22m or is not a directory
+      looking for modules in C:\Users\dev\z-code\node_modules
+[1m[31m        C:\Users\dev\z-code\node_modules\@theia\monaco-editor-core doesn't exist[39m[22m
+[1m[31m      C:\Users\dev\node_modules doesn't exist[39m[22m or is not a directory
+[1m[31m      C:\Users\node_modules doesn't exist[39m[22m or is not a directory
+[1m[31m      C:\node_modules doesn't exist[39m[22m or is not a directory
+
+webpack 5.104.1 compiled with [1m[31m2 errors[39m[22m in 79 ms
+
+asset [1m[32msecondary-window.js[39m[22m 21.5 MiB [1m[32m[emitted][39m[22m (name: secondary-window) 1 related asset
+asset [1m[32m55a4dd893aa466108ee8.wasm[39m[22m 462 KiB [1m[32m[emitted][39m[22m [1m[32m[immutable][39m[22m [from: ../../node_modules/.pnpm/vscode-oniguruma@2.0.1/node_modules/vscode-oniguruma/release/onig.wasm] (auxiliary name: secondary-window)
+orphan modules 14.1 KiB [1m[33m[orphan][39m[22m 7 modules
+runtime modules 2.27 KiB 7 modules
+javascript modules 16.9 MiB 1615 modules
+json modules 1.92 MiB
+  modules by path [1m../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2...(truncated)[39m[22m 1.8 MiB
+    optional modules 154 KiB [1m[33m[optional][39m[22m 47 modules
+    + 3 modules
+  modules by path [1m../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3a...(truncated)[39m[22m 34.5 KiB
+    [1m../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3a...(truncated)[39m[22m 103 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    + 9 modules
+  modules by path [1m../../node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/[39m[22m 86.7 KiB
+    [1m../../node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/encodings/tabl...(truncated)[39m[22m 8.78 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m../../node_modules/.pnpm/iconv-lite@0.6.3/node_modules/iconv-lite/encodings/tab...(truncated)[39m[22m 15.1 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    + 6 modules
+[1m../../node_modules/.pnpm/vscode-oniguruma@2.0.1/node_modules/vscode-oniguruma/re...(truncated)[39m[22m 462 KiB (asset) 42 bytes (javascript) [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  
+
+[1m[33mWARNING[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/common/worker/simpleWorker.js[39m[22m [1m[32m439:56-66[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/services/editorWorkerService.js 19:26-80
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices.js 72:33-89
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 65:29-117
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[33mWARNING[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/common/services/editorSimpleWorker.js[39m[22m [1m[32m420:53-63[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/services/editorWorkerService.js 23:32-86
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices.js 72:33-89
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 65:29-117
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+2 warnings have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+[1m[31mERROR[39m[22m in [1m./src-gen/frontend/secondary-index.js[39m[22m [1m[32m2:0-27[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'reflect-metadata' in 'C:\Users\dev\z-code\apps\francis-ide-browser\src-gen\frontend'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/core/lib/browser/frontend-application-module.js[39m[22m [1m[32m19:0-44[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ./src-gen/frontend/secondary-index.js 6:42-104
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/core/lib/browser/frontend-application-module.js[39m[22m [1m[32m20:0-57[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ./src-gen/frontend/secondary-index.js 6:42-104
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/core/lib/browser/frontend-application-module.js[39m[22m [1m[32m21:0-48[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ./src-gen/frontend/secondary-index.js 6:42-104
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/core/lib/browser/frontend-application-module.js[39m[22m [1m[32m22:0-38[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ./src-gen/frontend/secondary-index.js 6:42-104
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/core/lib/browser/frontend-application-module.js[39m[22m [1m[32m23:0-44[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ./src-gen/frontend/secondary-index.js 6:42-104
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/core/lib/browser/hover-service.js[39m[22m [1m[32m25:0-52[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/core/lib/browser/frontend-application-module.js 104:24-50
+ @ ./src-gen/frontend/secondary-index.js 6:42-104
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/core/lib/browser/tree/tree-compression/compressed-tree-widget.js[39m[22m [1m[32m20:0-77[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/core/lib/browser/tree/tree-compression/index.js 21:21-56
+ @ ../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/core/lib/browser/tree/index.js 30:21-50
+ @ ../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/core/lib/browser/index.js 29:21-38
+ @ ../../node_modules/.pnpm/@theia+filesystem@1.67.0_@t_1e7321965346ac09270ade36c2e9e5fe/node_modules/@theia/filesystem/lib/browser/filesystem-frontend-module.js 22:18-52
+ @ ./src-gen/frontend/secondary-index.js 10:19-94
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/core/lib/browser/widgets/select-component.js[39m[22m [1m[32m24:0-58[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/core/lib/browser/shell/tab-bars.js 31:27-65
+ @ ../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/core/lib/browser/common-frontend-contribution.js 34:19-46
+ @ ../../node_modules/.pnpm/@theia+core@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/core/lib/browser/frontend-application-module.js 31:39-80
+ @ ./src-gen/frontend/secondary-index.js 6:42-104
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+editor@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/editor/lib/browser/editor-frontend-module.js[39m[22m [1m[32m18:0-44[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ./src-gen/frontend/secondary-index.js 9:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+editor@1.67.0_@theia+electron@1.67.0_electron@37.2.1_/node_modules/@theia/editor/lib/browser/editor-frontend-module.js[39m[22m [1m[32m19:0-71[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ./src-gen/frontend/secondary-index.js 9:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+filesystem@1.67.0_@t_1e7321965346ac09270ade36c2e9e5fe/node_modules/@theia/filesystem/lib/browser/filesystem-frontend-module.js[39m[22m [1m[32m19:0-44[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ./src-gen/frontend/secondary-index.js 10:19-94
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/actionbar/actionViewItems.js[39m[22m [1m[32m18:0-26[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/actionbar/actionbar.js 11:29-60
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/quickinput/browser/quickInputController.js 20:23-81
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-quick-input-service.js 22:31-123
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 60:37-76
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/actionbar/actionbar.js[39m[22m [1m[32m17:0-26[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/quickinput/browser/quickInputController.js 20:23-81
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-quick-input-service.js 22:31-123
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 60:37-76
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/aria/aria.js[39m[22m [1m[32m11:0-21[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor.js 18:13-61
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-editor-service.js 29:31-121
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 30:32-66
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/button/button.js[39m[22m [1m[32m22:0-23[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/quickinput/browser/quickInputController.js 21:20-72
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-quick-input-service.js 22:31-123
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 60:37-76
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/codicons/codiconStyles.js[39m[22m [1m[32m7:0-32[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/quickAccess/standaloneGotoSymbolQuickAccess.js 17:0-64
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-gotosymbol-quick-access.js 24:42-155
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 62:41-84
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/codicons/codiconStyles.js[39m[22m [1m[32m8:0-42[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/quickAccess/standaloneGotoSymbolQuickAccess.js 17:0-64
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-gotosymbol-quick-access.js 24:42-155
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 62:41-84
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/contextview/contextview.js[39m[22m [1m[32m15:0-28[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/contextview/browser/contextViewService.js 17:25-87
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices.js 66:32-102
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 65:29-117
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/countBadge/countBadge.js[39m[22m [1m[32m10:0-27[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/quickinput/browser/quickInputController.js 22:24-84
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-quick-input-service.js 22:31-123
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 60:37-76
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/dropdown/dropdown.js[39m[22m [1m[32m15:0-25[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/dropdown/dropdownActionViewItem.js 12:22-46
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/actions/browser/menuEntryActionViewItem.js 27:36-106
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/contextview/browser/contextMenuService.js 21:37-96
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices.js 68:32-102
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 65:29-117
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/dropdown/dropdownActionViewItem.js[39m[22m [1m[32m17:0-25[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/actions/browser/menuEntryActionViewItem.js 27:36-106
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/contextview/browser/contextMenuService.js 21:37-96
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices.js 68:32-102
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 65:29-117
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/findinput/findInput.js[39m[22m [1m[32m13:0-26[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/quickinput/browser/quickInputBox.js 9:23-81
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/quickinput/browser/quickInputController.js 31:27-56
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-quick-input-service.js 22:31-123
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 60:37-76
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/findinput/replaceInput.js[39m[22m [1m[32m14:0-26[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/history/browser/contextScopedHistoryWidget.js 19:26-87
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/suggest/browser/suggest.js 29:40-117
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-application-contribution.js 24:18-100
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 38:51-104
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/hover/hoverWidget.js[39m[22m [1m[32m13:0-28[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/services/hoverService/hoverWidget.js 24:25-84
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/services/hoverService/hoverService.js 23:25-52
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices.js 24:0-62
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 65:29-117
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/iconLabel/iconLabel.js[39m[22m [1m[32m8:0-26[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/quickinput/browser/quickInputTree.js 30:23-81
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/quickinput/browser/quickInputController.js 36:28-58
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-quick-input-service.js 22:31-123
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 60:37-76
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/inputbox/inputBox.js[39m[22m [1m[32m20:0-25[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/history/browser/contextScopedHistoryWidget.js 20:22-78
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/suggest/browser/suggest.js 29:40-117
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-application-contribution.js 24:18-100
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 38:51-104
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/keybindingLabel/keybindingLabel.js[39m[22m [1m[32m14:0-32[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/quickinput/browser/quickInputTree.js 31:29-99
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/quickinput/browser/quickInputController.js 36:28-58
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-quick-input-service.js 22:31-123
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 60:37-76
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/list/listPaging.js[39m[22m [1m[32m12:0-21[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/list/browser/listService.js 19:24-78
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices.js 90:25-81
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 65:29-117
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/list/listWidget.js[39m[22m [1m[32m41:0-21[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/list/browser/listService.js 20:24-78
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices.js 90:25-81
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 65:29-117
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/mouseCursor/mouseCursor.js[39m[22m [1m[32m8:0-28[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/controller/editContext/textArea/textAreaEditContext.js 31:25-93
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/view.js 61:33-100
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/codeEditor/codeEditorWidget.js 31:18-42
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor.js 21:30-92
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-editor-service.js 29:31-121
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 30:32-66
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/progressbar/progressbar.js[39m[22m [1m[32m13:0-28[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/quickinput/browser/quickInputController.js 23:25-87
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-quick-input-service.js 22:31-123
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 60:37-76
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/sash/sash.js[39m[22m [1m[32m25:0-21[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/diffEditor/components/diffEditorSash.js 8:18-72
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/diffEditor/diffEditorWidget.js 42:28-69
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor.js 44:30-92
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-editor-service.js 29:31-121
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 30:32-66
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/scrollbar/scrollableElement.js[39m[22m [1m[32m20:0-33[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/diffEditor/components/accessibleDiffViewer.js 20:31-103
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/diffEditor/diffEditorWidget.js 39:34-81
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor.js 44:30-92
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-editor-service.js 29:31-121
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 30:32-66
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/selectBox/selectBox.js[39m[22m [1m[32m13:0-26[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/actionbar/actionViewItems.js 13:23-59
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/actionbar/actionbar.js 11:29-60
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/quickinput/browser/quickInputController.js 20:23-81
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-quick-input-service.js 22:31-123
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 60:37-76
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/selectBox/selectBoxCustom.js[39m[22m [1m[32m22:0-32[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/selectBox/selectBox.js 9:29-60
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/actionbar/actionViewItems.js 13:23-59
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/actionbar/actionbar.js 11:29-60
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/quickinput/browser/quickInputController.js 20:23-81
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-quick-input-service.js 22:31-123
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 60:37-76
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/splitview/splitview.js[39m[22m [1m[32m19:0-26[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/table/tableWidget.js 13:23-59
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/list/browser/listService.js 21:25-81
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices.js 90:25-81
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 65:29-117
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/table/tableWidget.js[39m[22m [1m[32m16:0-22[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/list/browser/listService.js 21:25-81
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices.js 90:25-81
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 65:29-117
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/toggle/toggle.js[39m[22m [1m[32m13:0-23[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/quickinput/browser/quickInput.js 19:20-72
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/quickinput/browser/quickInputController.js 32:24-50
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-quick-input-service.js 22:31-123
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 60:37-76
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/toolbar/toolbar.js[39m[22m [1m[32m15:0-24[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/actions/browser/toolbar.js 19:21-75
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/diffEditor/features/gutterFeature.js 20:21-82
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/diffEditor/diffEditorWidget.js 47:27-65
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor.js 44:30-92
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-editor-service.js 29:31-121
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 30:32-66
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/base/browser/ui/tree/abstractTree.js[39m[22m [1m[32m32:0-27[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/list/browser/listService.js 22:26-82
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices.js 90:25-81
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 65:29-117
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/controller/editContext/native/nativeEditContext.js[39m[22m [1m[32m17:0-34[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/view.js 62:31-94
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/codeEditor/codeEditorWidget.js 31:18-42
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor.js 21:30-92
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-editor-service.js 29:31-121
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 30:32-66
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/controller/editContext/textArea/textAreaEditContext.js[39m[22m [1m[32m17:0-36[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/view.js 61:33-100
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/codeEditor/codeEditorWidget.js 31:18-42
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor.js 21:30-92
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-editor-service.js 29:31-121
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 30:32-66
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/gpu/decorationCssRuleExtractor.js[39m[22m [1m[32m10:0-49[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/gpu/viewGpuContext.js 31:40-82
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/gpu/browser/gpuActions.js 21:28-77
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 35:0-46
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/services/hoverService/hoverWidget.js[39m[22m [1m[32m17:0-22[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/services/hoverService/hoverService.js 23:25-52
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices.js 24:0-62
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 65:29-117
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/viewParts/blockDecorations/blockDecorations.js[39m[22m [1m[32m9:0-33[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/view.js 28:30-89
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/codeEditor/codeEditorWidget.js 31:18-42
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor.js 21:30-92
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-editor-service.js 29:31-121
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 30:32-66
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/viewParts/currentLineHighlight/currentLineHighlight.js[39m[22m [1m[32m8:0-37[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/view.js 30:34-101
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/codeEditor/codeEditorWidget.js 31:18-42
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor.js 21:30-92
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-editor-service.js 29:31-121
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 30:32-66
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/viewParts/decorations/decorations.js[39m[22m [1m[32m8:0-28[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/view.js 31:25-74
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/codeEditor/codeEditorWidget.js 31:18-42
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor.js 21:30-92
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-editor-service.js 29:31-121
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 30:32-66
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/viewParts/glyphMargin/glyphMargin.js[39m[22m [1m[32m10:0-28[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/view.js 33:25-74
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/codeEditor/codeEditorWidget.js 31:18-42
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor.js 21:30-92
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-editor-service.js 29:31-121
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 30:32-66
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/viewParts/gpuMark/gpuMark.js[39m[22m [1m[32m10:0-24[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/view.js 65:21-62
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/codeEditor/codeEditorWidget.js 31:18-42
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor.js 21:30-92
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-editor-service.js 29:31-121
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 30:32-66
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/viewParts/indentGuides/indentGuides.js[39m[22m [1m[32m8:0-29[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/view.js 34:26-77
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/codeEditor/codeEditorWidget.js 31:18-42
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor.js 21:30-92
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-editor-service.js 29:31-121
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 30:32-66
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/viewParts/lineNumbers/lineNumbers.js[39m[22m [1m[32m8:0-28[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/view.js 35:25-74
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/codeEditor/codeEditorWidget.js 31:18-42
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor.js 21:30-92
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-editor-service.js 29:31-121
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 30:32-66
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/viewParts/linesDecorations/linesDecorations.js[39m[22m [1m[32m8:0-33[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/view.js 37:30-89
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/codeEditor/codeEditorWidget.js 31:18-42
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor.js 21:30-92
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-editor-service.js 29:31-121
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 30:32-66
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/viewParts/marginDecorations/marginDecorations.js[39m[22m [1m[32m8:0-34[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/view.js 39:31-92
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/codeEditor/codeEditorWidget.js 31:18-42
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor.js 21:30-92
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-editor-service.js 29:31-121
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 30:32-66
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/viewParts/margin/margin.js[39m[22m [1m[32m8:0-23[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/view.js 38:20-59
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/codeEditor/codeEditorWidget.js 31:18-42
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor.js 21:30-92
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-editor-service.js 29:31-121
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 30:32-66
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/viewParts/minimap/minimap.js[39m[22m [1m[32m8:0-24[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/view.js 40:21-62
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/codeEditor/codeEditorWidget.js 31:18-42
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor.js 21:30-92
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-editor-service.js 29:31-121
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 30:32-66
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/viewParts/overlayWidgets/overlayWidgets.js[39m[22m [1m[32m8:0-31[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/view.js 41:28-83
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/codeEditor/codeEditorWidget.js 31:18-42
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor.js 21:30-92
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-editor-service.js 29:31-121
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 30:32-66
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/viewParts/rulers/rulers.js[39m[22m [1m[32m8:0-23[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/view.js 44:20-59
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/codeEditor/codeEditorWidget.js 31:18-42
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor.js 21:30-92
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-editor-service.js 29:31-121
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 30:32-66
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/viewParts/scrollDecoration/scrollDecoration.js[39m[22m [1m[32m8:0-33[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/view.js 45:30-89
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/codeEditor/codeEditorWidget.js 31:18-42
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor.js 21:30-92
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-editor-service.js 29:31-121
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 30:32-66
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/viewParts/selections/selections.js[39m[22m [1m[32m8:0-27[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/view.js 46:24-71
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/codeEditor/codeEditorWidget.js 31:18-42
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor.js 21:30-92
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-editor-service.js 29:31-121
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 30:32-66
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/viewParts/viewCursors/viewCursors.js[39m[22m [1m[32m8:0-28[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/view.js 47:25-74
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/codeEditor/codeEditorWidget.js 31:18-42
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor.js 21:30-92
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-editor-service.js 29:31-121
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 30:32-66
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/viewParts/viewLines/viewLines.js[39m[22m [1m[32m11:0-26[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/view.js 36:23-68
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/codeEditor/codeEditorWidget.js 31:18-42
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor.js 21:30-92
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-editor-service.js 29:31-121
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 30:32-66
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/viewParts/whitespace/whitespace.js[39m[22m [1m[32m8:0-27[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/view.js 49:24-71
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/codeEditor/codeEditorWidget.js 31:18-42
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor.js 21:30-92
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-editor-service.js 29:31-121
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 30:32-66
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/codeEditor/codeEditorWidget.js[39m[22m [1m[32m25:0-23[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor.js 21:30-92
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-editor-service.js 29:31-121
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 30:32-66
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/diffEditor/components/accessibleDiffViewer.js[39m[22m [1m[32m43:0-37[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/diffEditor/diffEditorWidget.js 39:34-81
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor.js 44:30-92
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-editor-service.js 29:31-121
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 30:32-66
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/diffEditor/diffEditorWidget.js[39m[22m [1m[32m52:0-22[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneCodeEditor.js 44:30-92
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-editor-service.js 29:31-121
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 30:32-66
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/markdownRenderer/browser/markdownRenderer.js[39m[22m [1m[32m24:0-33[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/markdown-renderer/monaco-markdown-renderer.js 22:27-134
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 67:35-90
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/multiDiffEditor/multiDiffEditorWidgetImpl.js[39m[22m [1m[32m35:0-22[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/browser/widget/multiDiffEditor/multiDiffEditorWidget.js 25:39-80
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneEditor.js 71:35-107
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.api.js 10:30-81
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 30:13-39
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/anchorSelect/browser/anchorSelect.js[39m[22m [1m[32m21:0-29[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 11:0-57
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/bracketMatching/browser/bracketMatching.js[39m[22m [1m[32m10:0-32[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 12:0-63
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/codeAction/browser/lightBulbWidget.js[39m[22m [1m[32m24:0-32[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/codeAction/browser/codeActionContributions.js 11:29-60
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 16:0-66
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/codelens/browser/codelensWidget.js[39m[22m [1m[32m10:0-31[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/codelens/browser/codelensController.js 26:28-58
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 17:0-59
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/colorPickerParts/colorPickerBody.js[39m[22m [1m[32m8:0-29[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/colorPickerWidget.js 12:29-77
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/hoverColorPicker/hoverColorPickerParticipant.js 20:31-65
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/colorPickerContribution.js 19:41-101
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 18:0-67
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/colorPickerParts/colorPickerCloseButton.js[39m[22m [1m[32m8:0-29[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/colorPickerParts/colorPickerHeader.js 14:36-74
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/colorPickerWidget.js 13:31-81
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/hoverColorPicker/hoverColorPickerParticipant.js 20:31-65
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/colorPickerContribution.js 19:41-101
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 18:0-67
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/colorPickerParts/colorPickerHeader.js[39m[22m [1m[32m8:0-29[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/colorPickerWidget.js 13:31-81
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/hoverColorPicker/hoverColorPickerParticipant.js 20:31-65
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/colorPickerContribution.js 19:41-101
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 18:0-67
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/colorPickerParts/colorPickerInsertButton.js[39m[22m [1m[32m8:0-29[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/colorPickerParts/colorPickerBody.js 13:37-76
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/colorPickerWidget.js 12:29-77
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/hoverColorPicker/hoverColorPickerParticipant.js 20:31-65
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/colorPickerContribution.js 19:41-101
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 18:0-67
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/colorPickerParts/colorPickerSaturationBox.js[39m[22m [1m[32m8:0-29[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/colorPickerParts/colorPickerBody.js 12:38-78
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/colorPickerWidget.js 12:29-77
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/hoverColorPicker/hoverColorPickerParticipant.js 20:31-65
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/colorPickerContribution.js 19:41-101
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 18:0-67
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/colorPickerParts/colorPickerStrip.js[39m[22m [1m[32m8:0-29[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/colorPickerParts/colorPickerBody.js 14:30-62
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/colorPickerWidget.js 12:29-77
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/hoverColorPicker/hoverColorPickerParticipant.js 20:31-65
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/colorPickerContribution.js 19:41-101
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 18:0-67
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/colorPickerWidget.js[39m[22m [1m[32m8:0-28[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/hoverColorPicker/hoverColorPickerParticipant.js 20:31-65
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/colorPickerContribution.js 19:41-101
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 18:0-67
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/standaloneColorPicker/standaloneColorPickerWidget.js[39m[22m [1m[32m18:0-29[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/standaloneColorPicker/standaloneColorPickerController.js 21:41-84
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/colorPicker/browser/colorPickerContribution.js 21:45-114
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 18:0-67
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/dnd/browser/dnd.js[39m[22m [1m[32m10:0-20[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 22:0-39
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/dropOrPasteInto/browser/postEditWidget.js[39m[22m [1m[32m34:0-31[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/dropOrPasteInto/browser/copyPasteController.js 49:28-58
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/clipboard/browser/clipboard.js 20:33-96
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 15:0-51
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/find/browser/findOptionsWidget.js[39m[22m [1m[32m9:0-34[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/find/browser/findController.js 27:31-64
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 25:0-51
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/find/browser/findWidget.js[39m[22m [1m[32m19:0-27[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/find/browser/findController.js 29:24-50
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 25:0-51
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/folding/browser/folding.js[39m[22m [1m[32m26:0-24[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 26:0-47
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/gotoError/browser/gotoErrorWidget.js[39m[22m [1m[32m26:0-38[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/gotoError/browser/gotoError.js 31:29-60
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 34:0-51
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/gotoSymbol/browser/link/goToDefinitionAtPosition.js[39m[22m [1m[32m22:0-41[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 33:0-72
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/gotoSymbol/browser/peek/referencesWidget.js[39m[22m [1m[32m24:0-33[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/gotoSymbol/browser/peek/referencesController.js 36:30-62
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/referenceSearch/standaloneReferenceSearch.js 19:34-109
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 28:0-76
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/hover/browser/contentHoverController.js[39m[22m [1m[32m26:0-22[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/hover/browser/hoverContribution.js 14:36-74
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 36:0-55
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/hover/browser/glyphHoverController.js[39m[22m [1m[32m22:0-22[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/hover/browser/hoverContribution.js 15:34-70
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 36:0-55
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/hover/browser/hoverActions.js[39m[22m [1m[32m17:0-22[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/hover/browser/hoverContribution.js 7:26-54
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 36:0-55
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/hover/browser/hoverContribution.js[39m[22m [1m[32m16:0-22[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 36:0-55
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/inPlaceReplace/browser/inPlaceReplace.js[39m[22m [1m[32m28:0-31[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 39:0-61
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/inlineCompletions/browser/hintsWidget/inlineCompletionsHintsWidget.js[39m[22m [1m[32m43:0-45[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/hover/browser/contentHoverController.js 21:42-128
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/hover/browser/hoverContribution.js 14:36-74
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 36:0-55
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/inlineCompletions/browser/view/ghostText/ghostTextView.js[39m[22m [1m[32m37:0-30[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/inlineCompletions/browser/view/inlineCompletionsView.js 25:27-66
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/inlineCompletions/browser/controller/inlineCompletionsController.js 46:35-78
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/inlineCompletions/browser/inlineCompletions.contribution.js 13:41-95
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 30:0-80
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsView.js[39m[22m [1m[32m30:0-32[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsViewAndDiffProducer.js 31:29-60
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/inlineCompletions/browser/view/inlineCompletionsView.js 26:44-102
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/inlineCompletions/browser/controller/inlineCompletionsController.js 46:35-78
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/inlineCompletions/browser/inlineCompletions.contribution.js 13:41-95
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 30:0-80
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/inlineProgress/browser/inlineProgress.js[39m[22m [1m[32m23:0-37[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 31:0-61
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/linkedEditing/browser/linkedEditing.js[39m[22m [1m[32m40:0-30[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 42:0-59
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/links/browser/links.js[39m[22m [1m[32m28:0-22[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 43:0-43
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/message/browser/messageController.js[39m[22m [1m[32m23:0-34[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/gotoSymbol/browser/goToCommands.js 25:31-84
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 32:0-55
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/parameterHints/browser/parameterHintsWidget.js[39m[22m [1m[32m26:0-31[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/parameterHints/browser/parameterHints.js 29:34-70
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 46:0-61
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/peekView/browser/peekView.js[39m[22m [1m[32m26:0-37[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/gotoSymbol/browser/goToCommands.js 26:22-67
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 32:0-55
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/placeholderText/browser/placeholderText.contribution.js[39m[22m [1m[32m7:0-32[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 47:0-76
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/rename/browser/renameWidget.js[39m[22m [1m[32m31:0-29[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/rename/browser/rename.js 48:26-54
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 48:0-45
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/snippet/browser/snippetSession.js[39m[22m [1m[32m21:0-31[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/snippet/browser/snippetController2.js 29:28-58
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 53:0-58
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/stickyScroll/browser/stickyScrollWidget.js[39m[22m [1m[32m13:0-29[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/stickyScroll/browser/stickyScrollController.js 20:32-66
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/stickyScroll/browser/stickyScrollContribution.js 9:36-74
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 54:0-69
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/suggest/browser/suggestWidget.js[39m[22m [1m[32m27:0-30[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/suggest/browser/suggestController.js 48:27-56
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 55:0-57
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/symbolIcons/browser/symbolIcons.js[39m[22m [1m[32m8:0-28[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/quickAccess/standaloneGotoSymbolQuickAccess.js 18:0-62
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-gotosymbol-quick-access.js 24:42-155
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 62:41-84
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/unicodeHighlighter/browser/bannerController.js[39m[22m [1m[32m17:0-33[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/unicodeHighlighter/browser/unicodeHighlighter.js 33:30-62
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 59:0-69
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/unicodeHighlighter/browser/unicodeHighlighter.js[39m[22m [1m[32m23:0-35[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 59:0-69
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/wordHighlighter/browser/highlightDecorations.js[39m[22m [1m[32m9:0-37[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/multicursor/browser/multicursor.js 32:34-98
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 45:0-55
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/zoneWidget/browser/zoneWidget.js[39m[22m [1m[32m15:0-27[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/peekView/browser/peekView.js 30:24-73
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/gotoSymbol/browser/goToCommands.js 26:22-67
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 32:0-55
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/iPadShowKeyboard/iPadShowKeyboard.js[39m[22m [1m[32m8:0-33[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 22:0-68
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/inspectTokens/inspectTokens.js[39m[22m [1m[32m17:0-30[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 23:0-62
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/quickInput/standaloneQuickInputService.js[39m[22m [1m[32m17:0-37[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices.js 77:41-95
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 65:29-117
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneEditor.js[39m[22m [1m[32m45:0-34[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.api.js 10:30-81
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 30:13-39
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/actionWidget/browser/actionList.js[39m[22m [1m[32m25:0-29[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/actionWidget/browser/actionWidget.js 22:24-50
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/codeAction/browser/codeActionController.js 32:26-94
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/codeAction/browser/codeActionContributions.js 10:34-70
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 16:0-66
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/actionWidget/browser/actionWidget.js[39m[22m [1m[32m20:0-29[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/codeAction/browser/codeActionController.js 32:26-94
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/codeAction/browser/codeActionContributions.js 10:34-70
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 16:0-66
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/actions/browser/menuEntryActionViewItem.js[39m[22m [1m[32m48:0-40[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/contextview/browser/contextMenuService.js 21:37-96
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/standalone/browser/standaloneServices.js 68:32-102
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 65:29-117
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/opener/browser/link.js[39m[22m [1m[32m24:0-21[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/unicodeHighlighter/browser/bannerController.js 24:18-72
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/unicodeHighlighter/browser/unicodeHighlighter.js 33:30-62
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 59:0-69
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/quickinput/browser/quickInput.js[39m[22m [1m[32m28:0-33[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/quickinput/browser/quickInputController.js 32:24-50
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-quick-input-service.js 22:31-123
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 60:37-76
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/quickinput/browser/quickInputBox.js[39m[22m [1m[32m12:0-33[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/quickinput/browser/quickInputController.js 31:27-56
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-quick-input-service.js 22:31-123
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 60:37-76
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/quickinput/browser/quickInputUtils.js[39m[22m [1m[32m19:0-33[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/quickinput/browser/quickInput.js 31:29-60
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/quickinput/browser/quickInputController.js 32:24-50
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-quick-input-service.js 22:31-123
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 60:37-76
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/platform/severityIcon/browser/severityIcon.js[39m[22m [1m[32m8:0-35[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/gotoError/browser/gotoErrorWidget.js 37:26-94
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/contrib/gotoError/browser/gotoError.js 31:29-60
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.all.js 34:0-51
+ @ ../../node_modules/.pnpm/@theia+monaco-editor-core@1.96.302/node_modules/@theia/monaco-editor-core/esm/vs/editor/editor.main.js 21:0-26
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-languages.js 27:15-51
+ @ ../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js 28:27-56
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[31mERROR[39m[22m in [1m../../node_modules/.pnpm/@theia+monaco@1.67.0_@theia_8746631c7f2dee2f27a10c6cd3ab457b/node_modules/@theia/monaco/lib/browser/monaco-frontend-module.js[39m[22m [1m[32m19:0-44[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'css-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+ @ ./src-gen/frontend/secondary-index.js 11:19-86
+
+[1m[33m125 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.[39m[22m
+
+webpack 5.104.1 compiled with [1m[31m125 errors[39m[22m and [1m[33m2 warnings[39m[22m in 3061 ms
+
+Entrypoint [1mmain[39m[22m =
+Entrypoint [1mipc-bootstrap[39m[22m =
+Entrypoint [1mparcel-watcher[39m[22m =
+
+[1m[31mERROR[39m[22m in [1m[32mipc-bootstrap[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'source-map-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m[32mmain[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'source-map-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m[32mparcel-watcher[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'source-map-loader' in 'C:\Users\dev\z-code\apps\francis-ide-browser'[39m[22m
+
+[1m[33m3 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.[39m[22m
+
+webpack 5.104.1 compiled with [1m[31m3 errors[39m[22m in 57 ms
+
+Error: webpack exited with an unexpected code: 1.
+    at ChildProcess.<anonymous> (C:\Users\dev\z-code\node_modules\[4m.pnpm[24m\@theia+application-manager@_6afe8235836306518c511441ced89614\node_modules\[4m@theia[24m\application-manager\lib\application-process.js:86:28)
+[90m    at ChildProcess.emit (node:events:518:28)[39m
+[90m    at maybeClose (node:internal/child_process:1105:16)[39m
+[90m    at ChildProcess._handle.onexit (node:internal/child_process:305:5)[39m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m

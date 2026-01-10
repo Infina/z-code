@@ -1,0 +1,23 @@
+
+> francis-ide-electron@0.0.1 build C:\Users\dev\z-code\apps\francis-ide-electron
+> npm run bundle
+
+
+> francis-ide-electron@0.0.1 bundle
+> npm run rebuild && theia build --mode development
+
+
+> francis-ide-electron@0.0.1 rebuild
+> theia rebuild:electron --cacheRoot ..
+
+Module not found: find-git-repositories
+Module not found: ssh2
+Module not found: cpu-features
+Processed "drivelist"
+Processed "keytar"
+Processed "native-keymap"
+Processed "node-pty"
+- Searching dependency tree
+[32m√[39m Rebuild Complete
+Updated dependencies, please run "install" again
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m

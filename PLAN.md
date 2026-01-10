@@ -1,40 +1,43 @@
-# PROJECT Z: TACTICAL EXECUTION PLAN
+# PROJECT Z: TACTICAL EXECUTION PLAN (V3: HYBRID SHELL - WSL2)
 
 **Role:** The Executive Thread.
-**Context:** [ROADMAP.md](./ROADMAP.md) (The Strategic View)
-**Current Phase:** Phase 1.1 - The Vessel Initialization (Foundation)
-**Status:** IN_PROGRESS
+**Context:** [ROADMAP.md](./ROADMAP.md)
+**Status:** **MIGRATION PENDING**
+**Hardware Context:** RTX 4090 (Local). Cloud Rental = ABORTED.
 
-> "First, we build the Temple (Container). Then, we summon the God (Logic)."
+> "The Body stays on Windows (GPU). The Soul moves to Linux (WSL). The Ghost runs in the Shell."
 
-## IMMEDIATE MISSION: Constructing the Holographic Shell
+## STRATEGIC PIVOT: OPERATION HYBRID SHELL
 
-**Compliance Check:** Aligning with *Eclipse Theia 深度研究方案.md* (Section 8) and *Project Mode & Cloud Arch.md* (Section 2.3).
+We encountered a "Windows Native Toolchain Block" (MSBuild failures).
+Instead of renting a cloud server (high cost, high latency), we adopt **WSL2** to combine Linux build stability with local 4090 acceleration.
 
-### Step 1: Sanitation (Zero Point)
-- [x] **Action:** Sanitize `z-code` directory (Move existing loose files to `legacy/pre-monorepo`).
-- [x] **Action:** Initialize **Git** (Version Control is non-negotiable for Evidence Chain).
+### Step 1: Environmental Migration (User Action)
+- [ ] **Action:** Enable WSL2 on Windows 11 (`wsl --install`).
+- [ ] **Action:** Install Ubuntu 22.04 LTS.
+- [ ] **Action:** Move Codebase.
+    - **Do NOT** mount `C:\Users\...` in Linux.
+    - **Clone** the repo into `~/project-z` (Linux filesystem) for IO performance.
+- [ ] **Action:** VS Code Remote.
+    - Open the `~/project-z` folder in VS Code using "WSL" remote.
 
-### Step 2: The Monorepo Chassis (Nx)
-- [x] **Action:** Initialize `pnpm` workspace.
-- [x] **Action:** Install **Nx** (`npm add -D nx`).
-- [x] **Action:** Configure `nx.json` for **Hybrid Rust-TypeScript Governance** (as per *Cloud Arch* Doc).
+### Step 2: Linux Bootstrap (Once inside WSL)
+- [ ] **Action:** Install Toolchain.
+    - `sudo apt-get install build-essential python3 pkg-config libx11-dev libxkbfile-dev libsecret-1-dev`
+- [ ] **Action:** Verify Fork Build.
+    - Navigate to `platform/theia-fork`.
+    - Run `yarn` (or `npm install` now that we have Linux tools).
+    - `npm run compile`.
 
-### Step 3: The Holographic Body (Eclipse Theia)
-- [x] **Action:** Create directory `apps/francis-ide` (Refactored to `apps/francis-ide-browser` & `apps/francis-ide-electron`).
-- [x] **Action:** Use `generator-theia-extension` to initialize the project (`libs/francis-ide-extension`).
-- [ ] **Action:** **[NEXT]** Define `HolographicShell` Layout:
-    - Create `libs/francis-ide-extension/src/browser/holographic-layout.ts`.
-    - Implement `ApplicationShell` replacement strategy (bind to `ApplicationShell` symbol).
-    - Remove standard `ApplicationShell` (Shell Rebinding).
-    - *Reference:* *Eclipse Theia Deep Dive, Section 3.2*.
+### Step 3: The Holographic Light-Up
+- [ ] **Action:** Launch Backend in WSL.
+    - `npm run start` (examples/browser).
+- [ ] **Action:** Connect Frontend (Windows Chrome).
+    - `http://localhost:3000`.
+    - Verify: "PROJECT Z : FORK SUBSTRATE ACTIVE" (The injected signal).
 
-### Step 4: The Brain Transplant Preparation (Substrate)
-- [x] **Action:** Create directory `rust_core/`.
-- [ ] **Action:** Initialize `libs/z-protocol`:
-    - Define Schema: `UnifiedField` state structure.
-    - Set up `build.rs` for generating TS definitions from Rust structs (or use `napi-rs`).
-- [ ] **Action:** (Pending) Import verified modules from `../Francis_bot/rust_core` later.
+### Step 4: The Physics Ignition (Phase 1.2)
+- [ ] **Action:** Wire `rust_core` to `node-pty` / Backend logic in the verified environment.
 
 ---
-*Run `update_todo_list` to track progress against this file.*
+*Run `update_todo_list` to track progress.*

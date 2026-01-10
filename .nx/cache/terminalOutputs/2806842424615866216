@@ -1,0 +1,26 @@
+
+> francis-ide-electron@0.0.1 build C:\Users\dev\z-code\apps\francis-ide-electron
+> npm run bundle
+
+
+> francis-ide-electron@0.0.1 bundle
+> npm run rebuild && theia build --mode development
+
+
+> francis-ide-electron@0.0.1 rebuild
+> theia rebuild:electron --cacheRoot ..
+
+Module not found: node-pty
+Module not found: find-git-repositories
+Module not found: ssh2
+Module not found: cpu-features
+Processed "drivelist"
+Processed "keytar"
+Processed "native-keymap"
+npm ERR! npx canceled due to missing packages and no YES option: ["electron-rebuild@3.2.9"]
+
+npm ERR! A complete log of this run can be found in: C:\Users\dev\AppData\Local\npm-cache\_logs\2026-01-10T11_55_44_449Z-debug-0.log
+Reverted "keytar"
+Reverted "drivelist"
+Reverted "native-keymap"
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m

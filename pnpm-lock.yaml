@@ -7,108 +7,178 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@theia/monaco-editor-core':
+        specifier: ^1.96.302
+        version: 1.96.302
+      '@theia/variable-resolver':
+        specifier: ^1.67.0
+        version: 1.67.0(@theia/electron@1.67.0(electron@38.4.0))
+      bindings:
+        specifier: ^1.5.0
+        version: 1.5.0
+      drivelist:
+        specifier: ^12.0.2
+        version: 12.0.2
+      keytar:
+        specifier: ^7.9.0
+        version: 7.9.0
+      native-keymap:
+        specifier: ^3.3.8
+        version: 3.3.8
+      node-pty:
+        specifier: ^1.1.0
+        version: 1.1.0
+      reflect-metadata:
+        specifier: ^0.2.2
+        version: 0.2.2
+      yargs:
+        specifier: ^17.7.2
+        version: 17.7.2
     devDependencies:
+      '@theia/ffmpeg':
+        specifier: ^1.67.0
+        version: 1.67.0
+      css-loader:
+        specifier: ^7.1.2
+        version: 7.1.2(webpack@5.104.1)
+      electron:
+        specifier: 38.4.0
+        version: 38.4.0
+      electron-rebuild:
+        specifier: ^3.2.9
+        version: 3.2.9
+      file-loader:
+        specifier: ^6.2.0
+        version: 6.2.0(webpack@5.104.1)
+      node-loader:
+        specifier: ^2.1.0
+        version: 2.1.0(webpack@5.104.1)
       nx:
         specifier: ^22.3.3
         version: 22.3.3
+      source-map-loader:
+        specifier: ^5.0.0
+        version: 5.0.0(webpack@5.104.1)
+      style-loader:
+        specifier: ^4.0.0
+        version: 4.0.0(webpack@5.104.1)
+      umd-compat-loader:
+        specifier: ^2.1.2
+        version: 2.1.2
+      url-loader:
+        specifier: ^4.1.1
+        version: 4.1.1(file-loader@6.2.0(webpack@5.104.1))(webpack@5.104.1)
 
   apps/francis-ide-browser:
     dependencies:
       '@theia/core':
         specifier: 1.67.0
-        version: 1.67.0(@theia/electron@1.67.0(electron@37.2.1))
+        version: 1.67.0(@theia/electron@1.67.0(electron@38.4.0))
       '@theia/editor':
         specifier: 1.67.0
-        version: 1.67.0(@theia/electron@1.67.0(electron@37.2.1))
+        version: 1.67.0(@theia/electron@1.67.0(electron@38.4.0))
       '@theia/filesystem':
         specifier: 1.67.0
-        version: 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
-      '@theia/markers':
-        specifier: 1.67.0
-        version: 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
+        version: 1.67.0(@theia/electron@1.67.0(electron@38.4.0))(typescript@5.4.5)
       '@theia/messages':
         specifier: 1.67.0
-        version: 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 1.67.0(@theia/electron@1.67.0(electron@38.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@theia/monaco':
         specifier: 1.67.0
-        version: 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
-      '@theia/navigator':
+        version: 1.67.0(@theia/electron@1.67.0(electron@38.4.0))(typescript@5.4.5)
+      '@theia/variable-resolver':
         specifier: 1.67.0
-        version: 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
-      '@theia/preferences':
-        specifier: 1.67.0
-        version: 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
-      '@theia/process':
-        specifier: 1.67.0
-        version: 1.67.0(@theia/electron@1.67.0(electron@37.2.1))
-      '@theia/terminal':
-        specifier: 1.67.0
-        version: 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
+        version: 1.67.0(@theia/electron@1.67.0(electron@38.4.0))
       '@theia/workspace':
         specifier: 1.67.0
-        version: 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
+        version: 1.67.0(@theia/electron@1.67.0(electron@38.4.0))(typescript@5.4.5)
+      bindings:
+        specifier: ^1.5.0
+        version: 1.5.0
       francis-ide-extension:
         specifier: workspace:0.0.1
         version: link:../../libs/francis-ide-extension
+      reflect-metadata:
+        specifier: ^0.2.2
+        version: 0.2.2
+      yargs:
+        specifier: ^17.7.2
+        version: 17.7.2
     devDependencies:
       '@theia/cli':
         specifier: 1.67.0
-        version: 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
+        version: 1.67.0(@theia/electron@1.67.0(electron@38.4.0))(typescript@5.4.5)
+      css-loader:
+        specifier: ^7.1.2
+        version: 7.1.2(webpack@5.104.1)
+      source-map-loader:
+        specifier: ^5.0.0
+        version: 5.0.0(webpack@5.104.1)
+      style-loader:
+        specifier: ^4.0.0
+        version: 4.0.0(webpack@5.104.1)
+      umd-compat-loader:
+        specifier: ^2.1.2
+        version: 2.1.2
 
   apps/francis-ide-electron:
     dependencies:
       '@theia/core':
         specifier: 1.67.0
-        version: 1.67.0(@theia/electron@1.67.0(electron@37.2.1))
+        version: 1.67.0(@theia/electron@1.67.0(electron@38.4.0))
       '@theia/editor':
         specifier: 1.67.0
-        version: 1.67.0(@theia/electron@1.67.0(electron@37.2.1))
+        version: 1.67.0(@theia/electron@1.67.0(electron@38.4.0))
       '@theia/electron':
         specifier: 1.67.0
-        version: 1.67.0(electron@37.2.1)
+        version: 1.67.0(electron@38.4.0)
       '@theia/filesystem':
         specifier: 1.67.0
-        version: 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
-      '@theia/markers':
-        specifier: 1.67.0
-        version: 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
+        version: 1.67.0(@theia/electron@1.67.0(electron@38.4.0))(typescript@5.4.5)
       '@theia/messages':
         specifier: 1.67.0
-        version: 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 1.67.0(@theia/electron@1.67.0(electron@38.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@theia/monaco':
         specifier: 1.67.0
-        version: 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
-      '@theia/navigator':
+        version: 1.67.0(@theia/electron@1.67.0(electron@38.4.0))(typescript@5.4.5)
+      '@theia/variable-resolver':
         specifier: 1.67.0
-        version: 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
-      '@theia/preferences':
-        specifier: 1.67.0
-        version: 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
-      '@theia/process':
-        specifier: 1.67.0
-        version: 1.67.0(@theia/electron@1.67.0(electron@37.2.1))
-      '@theia/terminal':
-        specifier: 1.67.0
-        version: 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
+        version: 1.67.0(@theia/electron@1.67.0(electron@38.4.0))
       '@theia/workspace':
         specifier: 1.67.0
-        version: 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
+        version: 1.67.0(@theia/electron@1.67.0(electron@38.4.0))(typescript@5.4.5)
       francis-ide-extension:
         specifier: workspace:0.0.1
         version: link:../../libs/francis-ide-extension
+      reflect-metadata:
+        specifier: ^0.2.2
+        version: 0.2.2
     devDependencies:
       '@theia/cli':
         specifier: 1.67.0
-        version: 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
+        version: 1.67.0(@theia/electron@1.67.0(electron@38.4.0))(typescript@5.4.5)
+      css-loader:
+        specifier: ^7.1.2
+        version: 7.1.2(webpack@5.104.1)
       electron:
-        specifier: 37.2.1
-        version: 37.2.1
+        specifier: 38.4.0
+        version: 38.4.0
+      source-map-loader:
+        specifier: ^5.0.0
+        version: 5.0.0(webpack@5.104.1)
+      style-loader:
+        specifier: ^4.0.0
+        version: 4.0.0(webpack@5.104.1)
+      umd-compat-loader:
+        specifier: ^2.1.2
+        version: 2.1.2
 
   libs/francis-ide-extension:
     dependencies:
       '@theia/core':
         specifier: 1.67.0
-        version: 1.67.0(@theia/electron@1.67.0(electron@37.2.1))
+        version: 1.67.0(@theia/electron@1.67.0(electron@38.4.0))
     devDependencies:
       rimraf:
         specifier: ^5.0.0
@@ -116,6 +186,8 @@ importers:
       typescript:
         specifier: ~5.4.5
         version: 5.4.5
+
+  libs/z-protocol: {}
 
 packages:
 
@@ -1003,9 +1075,6 @@ packages:
   '@theia/ffmpeg@1.67.0':
     resolution: {integrity: sha512-+vyIxW/6EBQsmIaQgXvBEKnLR+VQn6FUbqPAD7j2EFoU7jX2gdHNHUOzoQL9Dmbd2Mft5JZuLYXMxoAU15yFtQ==}
 
-  '@theia/file-search@1.67.0':
-    resolution: {integrity: sha512-n+kV30PKNfEKVqgWMU5ob9nkEEYzBRl0RvK0LkiinNWhmSaTf+Fgi+mIz1PM4joCKrtGs/1NorGRmmWsAS5XIQ==}
-
   '@theia/filesystem@1.67.0':
     resolution: {integrity: sha512-fdvhga7NKWzBse/njNYiyaUOsuMsesp9jHR3wXz1DqytG871D+tBkuFki+p4ZL8Tanxt8X0kJ5hOOEF8OZ0bsg==}
 
@@ -1027,29 +1096,14 @@ packages:
   '@theia/native-webpack-plugin@1.67.0':
     resolution: {integrity: sha512-NKjXZh1VWs9+ykdnqarn8M5Wv+lV5Ba40zHR4vrsIB/2w/yxvzdAI0vz01MqFw5XK36T4FMyGsAOq0KfK0aF2Q==}
 
-  '@theia/navigator@1.67.0':
-    resolution: {integrity: sha512-xyVjov17Rqh7FacBUJDMDhDcVz0sXiwX3zQgnGciMsBVcddM/HBfUxNqPxIS0rlOH2Acr5MAFoGNP7WPEE3iwA==}
-
   '@theia/outline-view@1.67.0':
     resolution: {integrity: sha512-7/6lchr0LjgNURMBTj4UYrOHji7/bjjwzISeDRdQlYl2RdMSa/LMqGGPVl7RUc1EOl3oH/YQoXXDKUGk6CSwrw==}
 
   '@theia/ovsx-client@1.67.0':
     resolution: {integrity: sha512-6GmVIuoxQkyXgVhAnDkL8Z+1JNnXY6assmp2ewUIIgNQU4Hyyy/QgoBmfcQfn7F43vhtq7fsgeLjgLR0mQm6Gg==}
 
-  '@theia/preferences@1.67.0':
-    resolution: {integrity: sha512-YrVoGGyErIbsuK/vCkvV/pur36fmxXLLpwXbsJAPAeTcXfxw9Fjx2Vonh5VOi9mOYunqN97YtffRrtqGwTB78g==}
-
-  '@theia/process@1.67.0':
-    resolution: {integrity: sha512-+od+VRGqD9Q0iLtMetnxH/iA8wliJAKKMmovJ0J/wFnNKZWSXKpaSG+pEBiX942sE7rkiL8/VVchuQUrktnPZQ==}
-
   '@theia/request@1.67.0':
     resolution: {integrity: sha512-xKQXxxhuYdGcGg5QbBRKlJdEDWhkelpZqU9ngvDHAhntjefL4ZI3wg6Xm0C+YP7oxLDktPCrTlqRLetvYkA5iw==}
-
-  '@theia/terminal@1.67.0':
-    resolution: {integrity: sha512-875Cyu5Pib5hJKoj76Pq3Gc3LfMZ20SgRCD987obUe+kYtc2ZbbHQzTUyY4WKmVFkg8D32UoyyiWB3O997kubw==}
-
-  '@theia/userstorage@1.67.0':
-    resolution: {integrity: sha512-k1TaYtbi5JKyX+GNJrYhGy5J3YkEhpOf26Hm837noWsKEUz9YnQJ/aj9LaEHeak3RmHG4OgAah5Zb8MQR4F1Uw==}
 
   '@theia/variable-resolver@1.67.0':
     resolution: {integrity: sha512-YtKWRij46TC6zmcCU94kKzWXzXiS8bKnA/L0CVZ4IrhIQbdP8nzi614VPaqiutXbmBawUxM02qBn6FsY3LqS6Q==}
@@ -1240,9 +1294,6 @@ packages:
   '@vscode/codicons@0.0.44':
     resolution: {integrity: sha512-F7qPRumUK3EHjNdopfICLGRf3iNPoZQt+McTHAn4AlOWPB3W2kL4H0S7uqEqbyZ6rCxaeDjpAn3MCUnwTu/VJQ==}
 
-  '@vscode/ripgrep@1.17.0':
-    resolution: {integrity: sha512-mBRKm+ASPkUcw4o9aAgfbusIu6H4Sdhw09bjeP1YOBFTJEZAnrnk6WZwzv8NEjgC82f7ILvhmb1WIElSugea6g==}
-
   '@webassemblyjs/ast@1.14.1':
     resolution: {integrity: sha512-nuBEDgQfm1ccRp/8bCQrx1frohyufl4JlbMMZ4P1wpeOfDhF6FQkxZJ1b/e+PLwr6X1Nhw6OLme5usuBWYBvuQ==}
 
@@ -1421,6 +1472,14 @@ packages:
 
   append-field@1.0.0:
     resolution: {integrity: sha512-klpgFSWLW1ZEs8svjfb7g4qWY0YS5imI82dTg+QahUvJ8YqAY0P10Uk8tTyh9ZGuYEZEMaeJYCF5BFuX552hsw==}
+
+  aproba@2.1.0:
+    resolution: {integrity: sha512-tLIEcj5GuR2RSTnxNKdkK0dJ/GrC7P38sUkiDmDuHfsHmbagTFAxDVIBltoklXEVIQ/f14IL8IMJ5pn9Hez1Ew==}
+
+  are-we-there-yet@3.0.1:
+    resolution: {integrity: sha512-QZW4EDmGwlYur0Yyf/b2uGucHQMa8aFUP7eu9ddR73vvhFyt4V0Vl3QHPcTNJ8l6qYOBdxgXdnBXQrHilfRQBg==}
+    engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
+    deprecated: This package is no longer supported.
 
   argparse@1.0.10:
     resolution: {integrity: sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==}
@@ -1798,6 +1857,10 @@ packages:
   color-name@1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
 
+  color-support@1.1.3:
+    resolution: {integrity: sha512-qiBjkpbMLO/HL68y+lh4q0/O1MZFj2RX6X/KmMa3+gJD3z+WwI1ZzDHysvqHGS3mP6mznPckpXmw1nI9cJjyRg==}
+    hasBin: true
+
   colorette@1.4.0:
     resolution: {integrity: sha512-Y2oEozpomLn7Q3HFP7dpww7AtMJplbM9lGZP6RDfHqmbeRjiwRg4n6VM6j4KLmRke85uWEI7JqF17f3pqdRA0g==}
 
@@ -1834,6 +1897,9 @@ packages:
   conf@10.2.0:
     resolution: {integrity: sha512-8fLl9F04EJqjSqH+QjITQfJF8BrOVaYr1jewVgSRAEWePfxT0sku4w2hrGQ60BC/TNLGQ2pgxNlTbWQmMPFvXg==}
     engines: {node: '>=12'}
+
+  console-control-strings@1.1.0:
+    resolution: {integrity: sha512-ty/fTekppD2fIwRvnZAVdeOiGd1c7YXEixbgJTNzqcxJWKQnjJ/V1bNEEE6hygpM3WjwHFUVK6HTjWSzV4a8sQ==}
 
   content-disposition@0.5.4:
     resolution: {integrity: sha512-FveZTNuGw04cxlAiWbzi6zTAL/lhehaWbTtgluJh4/E95DqMwTmha3KZN1aAWA8cFIhHzMZUvLevkw5Rqk+tSQ==}
@@ -1899,6 +1965,18 @@ packages:
     peerDependencies:
       '@rspack/core': 0.x || 1.x
       webpack: ^5.0.0
+    peerDependenciesMeta:
+      '@rspack/core':
+        optional: true
+      webpack:
+        optional: true
+
+  css-loader@7.1.2:
+    resolution: {integrity: sha512-6WvYYn7l/XEGN8Xu2vWFt9nVzrCn39vKyTEFf/ExEyoksJjjSZV/0/35XPlMbpnr6VGhZIUg5yJrL8tGfes/FA==}
+    engines: {node: '>= 18.12.0'}
+    peerDependencies:
+      '@rspack/core': 0.x || 1.x
+      webpack: ^5.27.0
     peerDependenciesMeta:
       '@rspack/core':
         optional: true
@@ -2013,6 +2091,9 @@ packages:
     resolution: {integrity: sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==}
     engines: {node: '>=0.4.0'}
 
+  delegates@1.0.0:
+    resolution: {integrity: sha512-bd2L678uiWATM6m5Z1VzNCErI3jiGzt6HGY8OVICs40JQq/HALfbyNJmp0UDakEY4pMMaN0Ly5om/B1VI/+xfQ==}
+
   depd@2.0.0:
     resolution: {integrity: sha512-g7nH6P6dyDioJogAAGprGpCtVImJhpPk/roCzdb3fIh61/s/nPsfR6onyMwkCAR/OlC3yBC0lESvUoQEAssIrw==}
     engines: {node: '>= 0.8'}
@@ -2084,14 +2165,20 @@ packages:
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
 
+  electron-rebuild@3.2.9:
+    resolution: {integrity: sha512-FkEZNFViUem3P0RLYbZkUjC8LUFIK+wKq09GHoOITSJjfDAVQv964hwaNseTTWt58sITQX3/5fHNYcTefqaCWw==}
+    engines: {node: '>=12.13.0'}
+    deprecated: Please use @electron/rebuild moving forward.  There is no API change, just a package name change
+    hasBin: true
+
   electron-store@8.2.0:
     resolution: {integrity: sha512-ukLL5Bevdil6oieAOXz3CMy+OgaItMiVBg701MNlG6W5RaC0AHN7rvlqTCmeb6O7jP0Qa1KKYTE0xV0xbhF4Hw==}
 
   electron-to-chromium@1.5.267:
     resolution: {integrity: sha512-0Drusm6MVRXSOJpGbaSVgcQsuB4hEkMpHXaVstcPmhu5LIedxs1xNK/nIxmQIU/RPC0+1/o0AVZfBTkTNJOdUw==}
 
-  electron@37.2.1:
-    resolution: {integrity: sha512-ae2EbzRNqIAHlftfCHtbbt6EgJUW8+zxWLONqNnn2iSrLF0O/pbxbff3xcpZYPpmFBs4uqjoi+s4QS7DQ+zZ/w==}
+  electron@38.4.0:
+    resolution: {integrity: sha512-9CsXKbGf2qpofVe2pQYSgom2E//zLDJO2rGLLbxgy9tkdTOs7000Gte+d/PUtzLjI/DS95jDK0ojYAeqjLvpYg==}
     engines: {node: '>= 12.20.55'}
     hasBin: true
 
@@ -2303,6 +2390,12 @@ packages:
   file-icons-js@1.0.3:
     resolution: {integrity: sha512-n4zoKEpMaAxBTUB7wtgrFBa4dM3b7mBLLA1VI/Q5Cdk/k2UA8S8oaxvnECp3QOzg0Dn+KKRzfIHF7qSdRkA65Q==}
 
+  file-loader@6.2.0:
+    resolution: {integrity: sha512-qo3glqyTa61Ytg4u73GultjHGjdRyig3tG6lPtyX/jOEJvHif9uB0/OCI2Kif6ctF3caQTW2G5gym21oAsI4pw==}
+    engines: {node: '>= 10.13.0'}
+    peerDependencies:
+      webpack: ^4.0.0 || ^5.0.0
+
   file-type@3.9.0:
     resolution: {integrity: sha512-RLoqTXE8/vPmMuTI88DAzhMYC99I8BWv7zYP4A1puo5HIjEJ5EX48ighy4ZyKMG9EDXxBgW6e++cn7d1xuFghA==}
     engines: {node: '>=0.10.0'}
@@ -2431,6 +2524,11 @@ packages:
     resolution: {integrity: sha512-/gZffu4ykarLrCiP3Ygsa86UAo1E5vEVlvTrpkKywXSbP9Xhln3oSp9QSV57gEq3JFFpGJ4GZ+5zdEp3FcUh4w==}
     engines: {node: '>= 0.6.0'}
 
+  gauge@4.0.4:
+    resolution: {integrity: sha512-f9m+BEN5jkg6a0fZjleidjN51VE1X+mPFQ2DJ0uv1V39oCLCbsGe6yjbBnp7eK7z/+GAon99a3nHuqbuuthyPg==}
+    engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
+    deprecated: This package is no longer supported.
+
   gensync@1.0.0-beta.2:
     resolution: {integrity: sha512-3hN7NaskYvMDLQY55gnW3NQ+mesEAepTqlg+VEbj7zzqEMBVNhzcGYYeqFo/TlYz6eQiFcp1HcsCZO+nGgS8zg==}
     engines: {node: '>=6.9.0'}
@@ -2530,6 +2628,9 @@ packages:
   has-tostringtag@1.0.2:
     resolution: {integrity: sha512-NqADB8VjPFLM2V0VvHUewwwsw0ZWBaIdgo+ieHtK3hasLz4qeCRjYcqfB6AQrBggRKppKF8L52/VqdVsO47Dlw==}
     engines: {node: '>= 0.4'}
+
+  has-unicode@2.0.1:
+    resolution: {integrity: sha512-8Rf9Y83NBReMnx0gFzA8JImQACstCYWUplepDa9xprwwtmgEZUF0h/i5xSA625zB/I37EtrswSST6OXxwaaIJQ==}
 
   hasown@2.0.2:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
@@ -2957,6 +3058,11 @@ packages:
     resolution: {integrity: sha512-jumlc0BIUrS3qJGgIkWZsyfAM7NCWiBcCDhnd+3NNM5KbBmLTgHVfWBcg6W+rLUsIpzpERPsvwUP7CckAQSOoA==}
     engines: {node: '>=12'}
 
+  lzma-native@8.0.6:
+    resolution: {integrity: sha512-09xfg67mkL2Lz20PrrDeNYZxzeW7ADtpYFbwSQh9U8+76RIzx5QsJBMy8qikv3hbUPfpy6hqwxt6FcGK81g9AA==}
+    engines: {node: '>=10.0.0'}
+    hasBin: true
+
   make-dir@1.3.0:
     resolution: {integrity: sha512-2w31R7SJtieJJnQtGc7RVL2StM2vGYVfqUOvUDxH6bC6aJTxPxTF0GnIgCyu7tjockiUWAYQRbxa7vKn34s5sQ==}
     engines: {node: '>=4'}
@@ -3172,6 +3278,9 @@ packages:
   native-keymap@2.5.0:
     resolution: {integrity: sha512-EfdMpTcX40mlHBJSWidFV4WLpwwaebK3D3JFuO/42voOAnG2WHgDdg6JerbqcxXvRhvIg934GV+9PjB3jzfu9A==}
 
+  native-keymap@3.3.8:
+    resolution: {integrity: sha512-JoNfN3hlYWSiCJDMep9adOjpOvq64orKNO8zIy0ns1EZJFUwnvgHRpD7T8eWm7SMlbn4X3fh5FkA7LKPtT/Niw==}
+
   native-request@1.1.2:
     resolution: {integrity: sha512-/etjwrK0J4Ebbcnt35VMWnfiUX/B04uwGJxyJInagxDqf2z5drSt/lsOvEMWGYunz1kaLZAFrV4NDAbOoDKvAQ==}
 
@@ -3197,6 +3306,9 @@ packages:
   node-abort-controller@3.1.1:
     resolution: {integrity: sha512-AGK2yQKIjRuqnc6VkX2Xj5d+QW8xZ87pa1UK6yA6ouUyuxfHuMP6umE5QK7UmTeOAymo+Zx1Fxiuw9rVx8taHQ==}
 
+  node-addon-api@3.2.1:
+    resolution: {integrity: sha512-mmcei9JghVNDYydghQmeDX8KoAm0FAiYyIcUt/N4nhyAipB17pllZQDOJD2fotxABnt4Mdz+dKTO7eftLg4d0A==}
+
   node-addon-api@4.3.0:
     resolution: {integrity: sha512-73sE9+3UaLYYFmDsFZnqCInzPyh3MqIwZO9cw58yIqAZhONrrabrYyYe3TuIqtIiOuTXVhsGau8hcrhhwSsDIQ==}
 
@@ -3207,11 +3319,23 @@ packages:
     resolution: {integrity: sha512-/bRZty2mXUIFY/xU5HLvveNHlswNJej+RnxBjOMkidWfwZzgTbPG1E3K5TOxRLOR+5hX7bSofy8yf1hZevMS8A==}
     engines: {node: ^18 || ^20 || >= 21}
 
+  node-api-version@0.1.4:
+    resolution: {integrity: sha512-KGXihXdUChwJAOHO53bv9/vXcLmdUsZ6jIptbvYvkpKfth+r7jw44JkVxQFA3kX5nQjzjmGu1uAu/xNNLNlI5g==}
+
   node-api-version@0.2.1:
     resolution: {integrity: sha512-2xP/IGGMmmSQpI1+O/k72jF/ykvZ89JeuKX3TLJAYPDVLUalrshrLHkeVcCCZqG/eEa635cr8IBYzgnDvM2O8Q==}
 
   node-gyp-build-optional-packages@5.2.2:
     resolution: {integrity: sha512-s+w+rBWnpTMwSFbaE0UXsRlg7hU4FjekKU4eyAih5T8nJuNZT1nNsskXpxmeqSK9UzkBl6UgRlnKc8hz8IEqOw==}
+    hasBin: true
+
+  node-gyp-build@4.8.4:
+    resolution: {integrity: sha512-LA4ZjwlnUblHVgq0oBF3Jl/6h/Nvs5fzBLwdEF4nuxnFdsfajde4WfxtJr3CaiH+F6ewcIB/q4jQ4UzPyid+CQ==}
+    hasBin: true
+
+  node-gyp@9.4.1:
+    resolution: {integrity: sha512-OQkWKbjQKbGkMf/xqI1jjy3oCTgMKJac58G2+bjZb3fza6gW2YrCSdMQYaoTb70crvE//Gngr4f0AgVHmqHvBQ==}
+    engines: {node: ^12.13 || ^14.13 || >=16}
     hasBin: true
 
   node-loader@2.1.0:
@@ -3223,8 +3347,8 @@ packages:
   node-machine-id@1.1.12:
     resolution: {integrity: sha512-QNABxbrPa3qEIfrE6GOJ7BYIuignnJw7iQ2YPbc3Nla1HzRJjXzZOiikfF8m7eAMfichLt3M4VgLOetqgDmgGQ==}
 
-  node-pty@1.1.0-beta27:
-    resolution: {integrity: sha512-r0nRVgunspo/cBmf/eR+ultBrclxqldaL6FhiTLEmC4VcyKJxhluRK5d8EtbHYPLt8DqPKMnCakJDxreQynpnw==}
+  node-pty@1.1.0:
+    resolution: {integrity: sha512-20JqtutY6JPXTUnL0ij1uad7Qe1baT46lyolh2sSENDd4sTzKZ4nmAFkeAARDKwmlLjPx6XKRlwRUxwjOy+lUg==}
 
   node-releases@2.0.27:
     resolution: {integrity: sha512-nmh3lCkYZ3grZvqcCH+fjmQ7X+H0OeZgP40OierEaAptX4XofMh5kwNbWh7lBduUzCcV/8kZ+NDLCwm2iorIlA==}
@@ -3249,6 +3373,11 @@ packages:
   npm-run-path@4.0.1:
     resolution: {integrity: sha512-S48WzZW777zhNIrn7gxOlISNAqi9ZC/uQFnRdbeIHhZhCA6UqpkOT8T1G7BvfdgP4Er8gF4sUbaS0i7QvIfCWw==}
     engines: {node: '>=8'}
+
+  npmlog@6.0.2:
+    resolution: {integrity: sha512-/vBvz5Jfr9dT/aFWd0FIRf+T/Q2WBsLENygUaFUqstqsycmZAP/t5BvFJTK0viFmSUxiUKTUplWy5vt+rvKIxg==}
+    engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
+    deprecated: This package is no longer supported.
 
   nx@22.3.3:
     resolution: {integrity: sha512-pOxtKWUfvf0oD8Geqs8D89Q2xpstRTaSY+F6Ut/Wd0GnEjUjO32SS1ymAM6WggGPHDZN4qpNrd5cfIxQmAbRLg==}
@@ -3975,6 +4104,12 @@ packages:
     peerDependencies:
       webpack: ^5.0.0
 
+  source-map-loader@5.0.0:
+    resolution: {integrity: sha512-k2Dur7CbSLcAH73sBcIkV5xjPV4SzqO1NJ7+XaQl8if3VODDUj3FNchNGpqgJSKbvUfJuhVdv8K2Eu8/TNl2eA==}
+    engines: {node: '>= 18.12.0'}
+    peerDependencies:
+      webpack: ^5.72.1
+
   source-map-support@0.5.21:
     resolution: {integrity: sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==}
 
@@ -4010,10 +4145,6 @@ packages:
 
   streamx@2.23.0:
     resolution: {integrity: sha512-kn+e44esVfn2Fa/O0CPFcex27fjIL6MkVae0Mm6q+E6f0hWv578YCERbv+4m02cjxvDsPKLnmxral/rR6lBMAg==}
-
-  string-argv@0.1.2:
-    resolution: {integrity: sha512-mBqPGEOMNJKXRo7z0keX0wlAhbBAjilUdPW13nN0PecVryZxdHIeM7TqbsSUA7VYuS00HGC6mojP7DlQzfa9ZA==}
-    engines: {node: '>=0.6.19'}
 
   string-width@4.2.3:
     resolution: {integrity: sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==}
@@ -4061,6 +4192,12 @@ packages:
     engines: {node: '>= 10.13.0'}
     peerDependencies:
       webpack: ^4.0.0 || ^5.0.0
+
+  style-loader@4.0.0:
+    resolution: {integrity: sha512-1V4WqhhZZgjVAVJyt7TdDPZoPBPNHbekX4fWnCJL1yQukhCeZhJySUL+gL9y6sNdN95uEOS83Y55SqHcP7MzLA==}
+    engines: {node: '>= 18.12.0'}
+    peerDependencies:
+      webpack: ^5.27.0
 
   sumchecker@3.0.1:
     resolution: {integrity: sha512-MvjXzkz/BOfyVDkG0oFOtBxHX2u3gKbMHIF/dXblZsgD3BWOFLmHovIpZY7BykJdAjcqRCBi1WYBNdEC9yI7vg==}
@@ -4283,6 +4420,16 @@ packages:
   url-join@4.0.1:
     resolution: {integrity: sha512-jk1+QP6ZJqyOiuEI9AEWQfju/nB2Pw466kbA0LEZljHwKeMgd9WrAEgEGxjPDD2+TNbbb37rTyhEfrCXfuKXnA==}
 
+  url-loader@4.1.1:
+    resolution: {integrity: sha512-3BTV812+AVHHOJQO8O5MkWgZ5aosP7GnROJwvzLS9hWDj00lZ6Z0wNak423Lp9PBZN05N+Jk/N5Si8jRAlGyWA==}
+    engines: {node: '>= 10.13.0'}
+    peerDependencies:
+      file-loader: '*'
+      webpack: ^4.0.0 || ^5.0.0
+    peerDependenciesMeta:
+      file-loader:
+        optional: true
+
   urlpattern-polyfill@10.0.0:
     resolution: {integrity: sha512-H/A06tKD7sS1O1X2SshBVeA5FLycRpjqiBeqGKmBwBDBy28EnRjORxTNe269KSSr5un5qyWi1iL61wLxpd+ZOg==}
 
@@ -4408,6 +4555,9 @@ packages:
     engines: {node: '>= 8'}
     hasBin: true
 
+  wide-align@1.1.5:
+    resolution: {integrity: sha512-eDMORYaPNZ4sQIuuYPDHdQvf4gyCF9rEEV/yPxGfwPkRodwEgiMUUXTx/dex+Me0wxx53S+NgUHaP7y3MGlDmg==}
+
   wildcard@2.0.1:
     resolution: {integrity: sha512-CC1bOL87PIWSBhDcTrdeLo6eGT7mCFtrg0uIJtqJUFyK+eJnzl8A1niH56uu7KMa5XFrtiV+AQuHO3n7DsHnLQ==}
 
@@ -4481,28 +4631,6 @@ packages:
   xtend@4.0.2:
     resolution: {integrity: sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==}
     engines: {node: '>=0.4'}
-
-  xterm-addon-fit@0.8.0:
-    resolution: {integrity: sha512-yj3Np7XlvxxhYF/EJ7p3KHaMt6OdwQ+HDu573Vx1lRXsVxOcnVJs51RgjZOouIZOczTsskaS+CpXspK81/DLqw==}
-    deprecated: This package is now deprecated. Move to @xterm/addon-fit instead.
-    peerDependencies:
-      xterm: ^5.0.0
-
-  xterm-addon-search@0.13.0:
-    resolution: {integrity: sha512-sDUwG4CnqxUjSEFh676DlS3gsh3XYCzAvBPSvJ5OPgF3MRL3iHLPfsb06doRicLC2xXNpeG2cWk8x1qpESWJMA==}
-    deprecated: This package is now deprecated. Move to @xterm/addon-search instead.
-    peerDependencies:
-      xterm: ^5.0.0
-
-  xterm-addon-webgl@0.16.0:
-    resolution: {integrity: sha512-E8cq1AiqNOv0M/FghPT+zPAEnvIQRDbAbkb04rRYSxUym69elPWVJ4sv22FCLBqM/3LcrmBLl/pELnBebVFKgA==}
-    deprecated: This package is now deprecated. Move to @xterm/addon-webgl instead.
-    peerDependencies:
-      xterm: ^5.0.0
-
-  xterm@5.3.0:
-    resolution: {integrity: sha512-8QqjlekLUFTrU6x7xck1MsPzPA571K5zNqWm0M0oroYEWVOptZ0+ubQSkQ3uxIEhcIHRujJy6emDWX4A7qyFzg==}
-    deprecated: This package is now deprecated. Move to @xterm/xterm instead.
 
   y18n@4.0.3:
     resolution: {integrity: sha512-JKhqTOwSrqNA1NY5lSztJ1GrBiUodLMmIZuLiDaMRJ+itFd+ABVE8XBjOvIWL+rSqNDC74LCSFmlb/U4UZ4hJQ==}
@@ -5595,7 +5723,7 @@ snapshots:
     dependencies:
       defer-to-connect: 2.0.1
 
-  '@theia/application-manager@1.67.0(@theia/electron@1.67.0(electron@37.2.1))':
+  '@theia/application-manager@1.67.0(@theia/electron@1.67.0(electron@38.4.0))':
     dependencies:
       '@babel/core': 7.28.5
       '@babel/plugin-transform-classes': 7.28.4(@babel/core@7.28.5)
@@ -5631,7 +5759,7 @@ snapshots:
       worker-loader: 3.0.8(webpack@5.104.1)
       yargs: 15.4.1
     optionalDependencies:
-      '@theia/electron': 1.67.0(electron@37.2.1)
+      '@theia/electron': 1.67.0(electron@38.4.0)
     transitivePeerDependencies:
       - '@rspack/core'
       - '@swc/core'
@@ -5663,9 +5791,9 @@ snapshots:
       - debug
       - supports-color
 
-  '@theia/cli@1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)':
+  '@theia/cli@1.67.0(@theia/electron@1.67.0(electron@38.4.0))(typescript@5.4.5)':
     dependencies:
-      '@theia/application-manager': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))
+      '@theia/application-manager': 1.67.0(@theia/electron@1.67.0(electron@38.4.0))
       '@theia/application-package': 1.67.0
       '@theia/ffmpeg': 1.67.0
       '@theia/localization-manager': 1.67.0
@@ -5710,7 +5838,7 @@ snapshots:
       - webpack-bundle-analyzer
       - webpack-dev-server
 
-  '@theia/core@1.67.0(@theia/electron@1.67.0(electron@37.2.1))':
+  '@theia/core@1.67.0(@theia/electron@1.67.0(electron@38.4.0))':
     dependencies:
       '@babel/runtime': 7.28.4
       '@lumino/algorithm': 2.0.4
@@ -5783,17 +5911,17 @@ snapshots:
       ws: 8.19.0
       yargs: 15.4.1
     optionalDependencies:
-      '@theia/electron': 1.67.0(electron@37.2.1)
+      '@theia/electron': 1.67.0(electron@38.4.0)
     transitivePeerDependencies:
       - bufferutil
       - debug
       - supports-color
       - utf-8-validate
 
-  '@theia/editor@1.67.0(@theia/electron@1.67.0(electron@37.2.1))':
+  '@theia/editor@1.67.0(@theia/electron@1.67.0(electron@38.4.0))':
     dependencies:
-      '@theia/core': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))
-      '@theia/variable-resolver': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))
+      '@theia/core': 1.67.0(@theia/electron@1.67.0(electron@38.4.0))
+      '@theia/variable-resolver': 1.67.0(@theia/electron@1.67.0(electron@38.4.0))
       tslib: 2.8.1
     transitivePeerDependencies:
       - '@theia/electron'
@@ -5802,9 +5930,9 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@theia/electron@1.67.0(electron@37.2.1)':
+  '@theia/electron@1.67.0(electron@38.4.0)':
     dependencies:
-      electron: 37.2.1
+      electron: 38.4.0
       electron-store: 8.2.0
       fix-path: 4.0.0
       native-keymap: 2.5.0
@@ -5817,29 +5945,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@theia/file-search@1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)':
+  '@theia/filesystem@1.67.0(@theia/electron@1.67.0(electron@38.4.0))(typescript@5.4.5)':
     dependencies:
-      '@theia/core': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))
-      '@theia/editor': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))
-      '@theia/filesystem': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
-      '@theia/process': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))
-      '@theia/workspace': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
-      '@vscode/ripgrep': 1.17.0
-      tslib: 2.8.1
-    transitivePeerDependencies:
-      - '@theia/electron'
-      - bare-abort-controller
-      - bare-buffer
-      - bufferutil
-      - debug
-      - react-native-b4a
-      - supports-color
-      - typescript
-      - utf-8-validate
-
-  '@theia/filesystem@1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)':
-    dependencies:
-      '@theia/core': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))
+      '@theia/core': 1.67.0(@theia/electron@1.67.0(electron@38.4.0))
       '@types/body-parser': 1.19.6
       '@types/multer': 1.4.13
       '@types/tar-fs': 1.16.3
@@ -5882,11 +5990,11 @@ snapshots:
       tslib: 2.8.1
       typescript: 5.4.5
 
-  '@theia/markers@1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)':
+  '@theia/markers@1.67.0(@theia/electron@1.67.0(electron@38.4.0))(typescript@5.4.5)':
     dependencies:
-      '@theia/core': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))
-      '@theia/filesystem': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
-      '@theia/workspace': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
+      '@theia/core': 1.67.0(@theia/electron@1.67.0(electron@38.4.0))
+      '@theia/filesystem': 1.67.0(@theia/electron@1.67.0(electron@38.4.0))(typescript@5.4.5)
+      '@theia/workspace': 1.67.0(@theia/electron@1.67.0(electron@38.4.0))(typescript@5.4.5)
       tslib: 2.8.1
     transitivePeerDependencies:
       - '@theia/electron'
@@ -5899,9 +6007,9 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@theia/messages@1.67.0(@theia/electron@1.67.0(electron@37.2.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@theia/messages@1.67.0(@theia/electron@1.67.0(electron@38.4.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@theia/core': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))
+      '@theia/core': 1.67.0(@theia/electron@1.67.0(electron@38.4.0))
       react-perfect-scrollbar: 1.5.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       ts-md5: 1.3.1
       tslib: 2.8.1
@@ -5916,15 +6024,15 @@ snapshots:
 
   '@theia/monaco-editor-core@1.96.302': {}
 
-  '@theia/monaco@1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)':
+  '@theia/monaco@1.67.0(@theia/electron@1.67.0(electron@38.4.0))(typescript@5.4.5)':
     dependencies:
-      '@theia/core': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))
-      '@theia/editor': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))
-      '@theia/filesystem': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
-      '@theia/markers': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
+      '@theia/core': 1.67.0(@theia/electron@1.67.0(electron@38.4.0))
+      '@theia/editor': 1.67.0(@theia/electron@1.67.0(electron@38.4.0))
+      '@theia/filesystem': 1.67.0(@theia/electron@1.67.0(electron@38.4.0))(typescript@5.4.5)
+      '@theia/markers': 1.67.0(@theia/electron@1.67.0(electron@38.4.0))(typescript@5.4.5)
       '@theia/monaco-editor-core': 1.96.302
-      '@theia/outline-view': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))
-      '@theia/workspace': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
+      '@theia/outline-view': 1.67.0(@theia/electron@1.67.0(electron@38.4.0))
+      '@theia/workspace': 1.67.0(@theia/electron@1.67.0(electron@38.4.0))(typescript@5.4.5)
       fast-plist: 0.1.3
       idb: 4.0.5
       jsonc-parser: 2.3.1
@@ -5953,27 +6061,9 @@ snapshots:
       - uglify-js
       - webpack-cli
 
-  '@theia/navigator@1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)':
+  '@theia/outline-view@1.67.0(@theia/electron@1.67.0(electron@38.4.0))':
     dependencies:
-      '@theia/core': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))
-      '@theia/filesystem': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
-      '@theia/workspace': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
-      minimatch: 10.1.1
-      tslib: 2.8.1
-    transitivePeerDependencies:
-      - '@theia/electron'
-      - bare-abort-controller
-      - bare-buffer
-      - bufferutil
-      - debug
-      - react-native-b4a
-      - supports-color
-      - typescript
-      - utf-8-validate
-
-  '@theia/outline-view@1.67.0(@theia/electron@1.67.0(electron@37.2.1))':
-    dependencies:
-      '@theia/core': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))
+      '@theia/core': 1.67.0(@theia/electron@1.67.0(electron@38.4.0))
       tslib: 2.8.1
     transitivePeerDependencies:
       - '@theia/electron'
@@ -5991,44 +6081,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@theia/preferences@1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)':
-    dependencies:
-      '@theia/core': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))
-      '@theia/editor': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))
-      '@theia/filesystem': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
-      '@theia/monaco': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
-      '@theia/monaco-editor-core': 1.96.302
-      '@theia/userstorage': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
-      '@theia/workspace': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
-      async-mutex: 0.3.2
-      fast-deep-equal: 3.1.3
-      jsonc-parser: 2.3.1
-      p-debounce: 2.1.0
-      tslib: 2.8.1
-    transitivePeerDependencies:
-      - '@theia/electron'
-      - bare-abort-controller
-      - bare-buffer
-      - bufferutil
-      - debug
-      - react-native-b4a
-      - supports-color
-      - typescript
-      - utf-8-validate
-
-  '@theia/process@1.67.0(@theia/electron@1.67.0(electron@37.2.1))':
-    dependencies:
-      '@theia/core': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))
-      node-pty: 1.1.0-beta27
-      string-argv: 0.1.2
-      tslib: 2.8.1
-    transitivePeerDependencies:
-      - '@theia/electron'
-      - bufferutil
-      - debug
-      - supports-color
-      - utf-8-validate
-
   '@theia/request@1.67.0':
     dependencies:
       http-proxy-agent: 5.0.0
@@ -6037,50 +6089,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@theia/terminal@1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)':
+  '@theia/variable-resolver@1.67.0(@theia/electron@1.67.0(electron@38.4.0))':
     dependencies:
-      '@theia/core': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))
-      '@theia/editor': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))
-      '@theia/file-search': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
-      '@theia/filesystem': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
-      '@theia/process': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))
-      '@theia/variable-resolver': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))
-      '@theia/workspace': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
-      tslib: 2.8.1
-      xterm: 5.3.0
-      xterm-addon-fit: 0.8.0(xterm@5.3.0)
-      xterm-addon-search: 0.13.0(xterm@5.3.0)
-      xterm-addon-webgl: 0.16.0(xterm@5.3.0)
-    transitivePeerDependencies:
-      - '@theia/electron'
-      - bare-abort-controller
-      - bare-buffer
-      - bufferutil
-      - debug
-      - react-native-b4a
-      - supports-color
-      - typescript
-      - utf-8-validate
-
-  '@theia/userstorage@1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)':
-    dependencies:
-      '@theia/core': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))
-      '@theia/filesystem': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
-      tslib: 2.8.1
-    transitivePeerDependencies:
-      - '@theia/electron'
-      - bare-abort-controller
-      - bare-buffer
-      - bufferutil
-      - debug
-      - react-native-b4a
-      - supports-color
-      - typescript
-      - utf-8-validate
-
-  '@theia/variable-resolver@1.67.0(@theia/electron@1.67.0(electron@37.2.1))':
-    dependencies:
-      '@theia/core': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))
+      '@theia/core': 1.67.0(@theia/electron@1.67.0(electron@38.4.0))
       tslib: 2.8.1
     transitivePeerDependencies:
       - '@theia/electron'
@@ -6089,11 +6100,11 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@theia/workspace@1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)':
+  '@theia/workspace@1.67.0(@theia/electron@1.67.0(electron@38.4.0))(typescript@5.4.5)':
     dependencies:
-      '@theia/core': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))
-      '@theia/filesystem': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))(typescript@5.4.5)
-      '@theia/variable-resolver': 1.67.0(@theia/electron@1.67.0(electron@37.2.1))
+      '@theia/core': 1.67.0(@theia/electron@1.67.0(electron@38.4.0))
+      '@theia/filesystem': 1.67.0(@theia/electron@1.67.0(electron@38.4.0))(typescript@5.4.5)
+      '@theia/variable-resolver': 1.67.0(@theia/electron@1.67.0(electron@38.4.0))
       jsonc-parser: 2.3.1
       tslib: 2.8.1
       valid-filename: 2.0.1
@@ -6314,7 +6325,7 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 22.19.5
+      '@types/node': 25.0.5
     optional: true
 
   '@virtuoso.dev/react-urx@0.2.13(react@18.3.1)':
@@ -6325,14 +6336,6 @@ snapshots:
   '@virtuoso.dev/urx@0.2.13': {}
 
   '@vscode/codicons@0.0.44': {}
-
-  '@vscode/ripgrep@1.17.0':
-    dependencies:
-      https-proxy-agent: 7.0.6
-      proxy-from-env: 1.1.0
-      yauzl: 2.10.0
-    transitivePeerDependencies:
-      - supports-color
 
   '@webassemblyjs/ast@1.14.1':
     dependencies:
@@ -6522,6 +6525,13 @@ snapshots:
       picomatch: 2.3.1
 
   append-field@1.0.0: {}
+
+  aproba@2.1.0: {}
+
+  are-we-there-yet@3.0.1:
+    dependencies:
+      delegates: 1.0.0
+      readable-stream: 3.6.2
 
   argparse@1.0.10:
     dependencies:
@@ -6938,6 +6948,8 @@ snapshots:
 
   color-name@1.1.4: {}
 
+  color-support@1.1.3: {}
+
   colorette@1.4.0: {}
 
   combined-stream@1.0.8:
@@ -6979,6 +6991,8 @@ snapshots:
       onetime: 5.1.2
       pkg-up: 3.1.0
       semver: 7.7.3
+
+  console-control-strings@1.1.0: {}
 
   content-disposition@0.5.4:
     dependencies:
@@ -7038,6 +7052,19 @@ snapshots:
       which: 2.0.2
 
   css-loader@6.11.0(webpack@5.104.1):
+    dependencies:
+      icss-utils: 5.1.0(postcss@8.5.6)
+      postcss: 8.5.6
+      postcss-modules-extract-imports: 3.1.0(postcss@8.5.6)
+      postcss-modules-local-by-default: 4.2.0(postcss@8.5.6)
+      postcss-modules-scope: 3.2.1(postcss@8.5.6)
+      postcss-modules-values: 4.0.0(postcss@8.5.6)
+      postcss-value-parser: 4.2.0
+      semver: 7.7.3
+    optionalDependencies:
+      webpack: 5.104.1(webpack-cli@4.7.0)
+
+  css-loader@7.1.2(webpack@5.104.1):
     dependencies:
       icss-utils: 5.1.0(postcss@8.5.6)
       postcss: 8.5.6
@@ -7155,6 +7182,8 @@ snapshots:
 
   delayed-stream@1.0.0: {}
 
+  delegates@1.0.0: {}
+
   depd@2.0.0: {}
 
   destroy@1.2.0: {}
@@ -7217,6 +7246,26 @@ snapshots:
 
   ee-first@1.1.1: {}
 
+  electron-rebuild@3.2.9:
+    dependencies:
+      '@malept/cross-spawn-promise': 2.0.0
+      chalk: 4.1.2
+      debug: 4.4.3(supports-color@8.1.1)
+      detect-libc: 2.1.2
+      fs-extra: 10.1.0
+      got: 11.8.6
+      lzma-native: 8.0.6
+      node-abi: 3.85.0
+      node-api-version: 0.1.4
+      node-gyp: 9.4.1
+      ora: 5.3.0
+      semver: 7.7.3
+      tar: 6.2.1
+      yargs: 17.7.2
+    transitivePeerDependencies:
+      - bluebird
+      - supports-color
+
   electron-store@8.2.0:
     dependencies:
       conf: 10.2.0
@@ -7224,7 +7273,7 @@ snapshots:
 
   electron-to-chromium@1.5.267: {}
 
-  electron@37.2.1:
+  electron@38.4.0:
     dependencies:
       '@electron/get': 2.0.3
       '@types/node': 22.19.5
@@ -7480,6 +7529,12 @@ snapshots:
 
   file-icons-js@1.0.3: {}
 
+  file-loader@6.2.0(webpack@5.104.1):
+    dependencies:
+      loader-utils: 2.0.4
+      schema-utils: 3.3.0
+      webpack: 5.104.1(webpack-cli@4.7.0)
+
   file-type@3.9.0: {}
 
   file-type@5.2.0: {}
@@ -7604,6 +7659,17 @@ snapshots:
   function-bind@1.1.2: {}
 
   fuzzy@0.1.3: {}
+
+  gauge@4.0.4:
+    dependencies:
+      aproba: 2.1.0
+      color-support: 1.1.3
+      console-control-strings: 1.1.0
+      has-unicode: 2.0.1
+      signal-exit: 3.0.7
+      string-width: 4.2.3
+      strip-ansi: 6.0.1
+      wide-align: 1.1.5
 
   gensync@1.0.0-beta.2: {}
 
@@ -7745,6 +7811,8 @@ snapshots:
   has-tostringtag@1.0.2:
     dependencies:
       has-symbols: 1.1.0
+
+  has-unicode@2.0.1: {}
 
   hasown@2.0.2:
     dependencies:
@@ -8151,6 +8219,12 @@ snapshots:
 
   lru-cache@7.18.3: {}
 
+  lzma-native@8.0.6:
+    dependencies:
+      node-addon-api: 3.2.1
+      node-gyp-build: 4.8.4
+      readable-stream: 3.6.2
+
   make-dir@1.3.0:
     dependencies:
       pify: 3.0.0
@@ -8395,6 +8469,8 @@ snapshots:
 
   native-keymap@2.5.0: {}
 
+  native-keymap@3.3.8: {}
+
   native-request@1.1.2:
     optional: true
 
@@ -8412,11 +8488,17 @@ snapshots:
 
   node-abort-controller@3.1.1: {}
 
+  node-addon-api@3.2.1: {}
+
   node-addon-api@4.3.0: {}
 
   node-addon-api@7.1.1: {}
 
   node-addon-api@8.5.0: {}
+
+  node-api-version@0.1.4:
+    dependencies:
+      semver: 7.7.3
 
   node-api-version@0.2.1:
     dependencies:
@@ -8427,6 +8509,25 @@ snapshots:
       detect-libc: 2.1.2
     optional: true
 
+  node-gyp-build@4.8.4: {}
+
+  node-gyp@9.4.1:
+    dependencies:
+      env-paths: 2.2.1
+      exponential-backoff: 3.1.3
+      glob: 7.2.3
+      graceful-fs: 4.2.11
+      make-fetch-happen: 10.2.1
+      nopt: 6.0.0
+      npmlog: 6.0.2
+      rimraf: 3.0.2
+      semver: 7.7.3
+      tar: 6.2.1
+      which: 2.0.2
+    transitivePeerDependencies:
+      - bluebird
+      - supports-color
+
   node-loader@2.1.0(webpack@5.104.1):
     dependencies:
       loader-utils: 2.0.4
@@ -8434,7 +8535,7 @@ snapshots:
 
   node-machine-id@1.1.12: {}
 
-  node-pty@1.1.0-beta27:
+  node-pty@1.1.0:
     dependencies:
       node-addon-api: 7.1.1
 
@@ -8455,6 +8556,13 @@ snapshots:
   npm-run-path@4.0.1:
     dependencies:
       path-key: 3.1.1
+
+  npmlog@6.0.2:
+    dependencies:
+      are-we-there-yet: 3.0.1
+      console-control-strings: 1.1.0
+      gauge: 4.0.4
+      set-blocking: 2.0.0
 
   nx@22.3.3:
     dependencies:
@@ -9309,6 +9417,12 @@ snapshots:
       source-map-js: 0.6.2
       webpack: 5.104.1(webpack-cli@4.7.0)
 
+  source-map-loader@5.0.0(webpack@5.104.1):
+    dependencies:
+      iconv-lite: 0.6.3
+      source-map-js: 1.2.1
+      webpack: 5.104.1(webpack-cli@4.7.0)
+
   source-map-support@0.5.21:
     dependencies:
       buffer-from: 1.1.2
@@ -9341,8 +9455,6 @@ snapshots:
     transitivePeerDependencies:
       - bare-abort-controller
       - react-native-b4a
-
-  string-argv@0.1.2: {}
 
   string-width@4.2.3:
     dependencies:
@@ -9388,6 +9500,10 @@ snapshots:
     dependencies:
       loader-utils: 2.0.4
       schema-utils: 3.3.0
+      webpack: 5.104.1(webpack-cli@4.7.0)
+
+  style-loader@4.0.0(webpack@5.104.1):
+    dependencies:
       webpack: 5.104.1(webpack-cli@4.7.0)
 
   sumchecker@3.0.1:
@@ -9633,6 +9749,15 @@ snapshots:
 
   url-join@4.0.1: {}
 
+  url-loader@4.1.1(file-loader@6.2.0(webpack@5.104.1))(webpack@5.104.1):
+    dependencies:
+      loader-utils: 2.0.4
+      mime-types: 2.1.35
+      schema-utils: 3.3.0
+      webpack: 5.104.1(webpack-cli@4.7.0)
+    optionalDependencies:
+      file-loader: 6.2.0(webpack@5.104.1)
+
   urlpattern-polyfill@10.0.0: {}
 
   user-home@2.0.0:
@@ -9764,6 +9889,10 @@ snapshots:
     dependencies:
       isexe: 2.0.0
 
+  wide-align@1.1.5:
+    dependencies:
+      string-width: 4.2.3
+
   wildcard@2.0.1: {}
 
   worker-loader@3.0.8(webpack@5.104.1):
@@ -9825,20 +9954,6 @@ snapshots:
   xmlhttprequest-ssl@2.1.2: {}
 
   xtend@4.0.2: {}
-
-  xterm-addon-fit@0.8.0(xterm@5.3.0):
-    dependencies:
-      xterm: 5.3.0
-
-  xterm-addon-search@0.13.0(xterm@5.3.0):
-    dependencies:
-      xterm: 5.3.0
-
-  xterm-addon-webgl@0.16.0(xterm@5.3.0):
-    dependencies:
-      xterm: 5.3.0
-
-  xterm@5.3.0: {}
 
   y18n@4.0.3: {}
 

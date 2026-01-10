@@ -29,7 +29,8 @@
   },
   "theiaExtensions": [
     {
-      "frontend": "lib/browser/francis-ide-frontend-module"
+      "frontend": "lib/browser/francis-ide-frontend-module",
+      "backend": "lib/node/francis-ide-backend-module"
     }
   ]
 }

@@ -1,0 +1,710 @@
+{
+  "apps/francis-ide-browser": {
+    "root": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "projectType": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.script": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.scriptContent": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.runCommand": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.bundle": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.bundle.executor": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.bundle.options": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.bundle.metadata": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.bundle.options.script": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.bundle.metadata.scriptContent": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.bundle.metadata.runCommand": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.rebuild": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.rebuild.executor": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.rebuild.options": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.rebuild.metadata": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.rebuild.options.script": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.rebuild.metadata.scriptContent": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.rebuild.metadata.runCommand": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.executor": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.options": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.options.script": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata.scriptContent": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata.runCommand": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.executor": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.options": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.metadata": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.options.script": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.metadata.scriptContent": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.metadata.runCommand": [
+      "apps/francis-ide-browser/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "apps/francis-ide-electron": {
+    "root": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "projectType": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.script": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.scriptContent": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.runCommand": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.bundle": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.bundle.executor": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.bundle.options": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.bundle.metadata": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.bundle.options.script": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.bundle.metadata.scriptContent": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.bundle.metadata.runCommand": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.rebuild": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.rebuild.executor": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.rebuild.options": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.rebuild.metadata": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.rebuild.options.script": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.rebuild.metadata.scriptContent": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.rebuild.metadata.runCommand": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.executor": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.options": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.options.script": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata.scriptContent": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata.runCommand": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.executor": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.options": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.metadata": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.options.script": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.metadata.scriptContent": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.metadata.runCommand": [
+      "apps/francis-ide-electron/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "libs/francis-ide-extension": {
+    "root": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "projectType": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:theia-extension": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepare": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepare.executor": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepare.options": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepare.metadata": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepare.options.script": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepare.metadata.scriptContent": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.prepare.metadata.runCommand": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.executor": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.options": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.options.script": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata.scriptContent": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean.metadata.runCommand": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.script": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.scriptContent": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.runCommand": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.executor": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.options": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.metadata": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.options.script": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.metadata.scriptContent": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.metadata.runCommand": [
+      "libs/francis-ide-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "libs/z-protocol": {
+    "root": [
+      "libs/z-protocol/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "libs/z-protocol/package.json",
+      "nx/core/package-json"
+    ],
+    "projectType": [
+      "libs/z-protocol/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "libs/z-protocol/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "libs/z-protocol/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "libs/z-protocol/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "libs/z-protocol/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "libs/z-protocol/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "libs/z-protocol/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "libs/z-protocol/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "libs/z-protocol/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "libs/z-protocol/package.json",
+      "nx/core/package-json"
+    ]
+  }
+}
