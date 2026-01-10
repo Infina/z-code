@@ -1,0 +1,1 @@
+fn main() { let u = User { id: 1 }; utils::helper(); }

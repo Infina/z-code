@@ -1,0 +1,14 @@
+/Users/jinyangren/z code/z-code/rust_core/target/release/deps/serde-551fd291178cc631.d: /Users/jinyangren/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/jinyangren/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/jinyangren/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/jinyangren/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/jinyangren/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/jinyangren/z\ code/z-code/rust_core/target/release/build/serde-1271ce5b4ecddfd5/out/private.rs
+
+/Users/jinyangren/z code/z-code/rust_core/target/release/deps/libserde-551fd291178cc631.rlib: /Users/jinyangren/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/jinyangren/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/jinyangren/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/jinyangren/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/jinyangren/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/jinyangren/z\ code/z-code/rust_core/target/release/build/serde-1271ce5b4ecddfd5/out/private.rs
+
+/Users/jinyangren/z code/z-code/rust_core/target/release/deps/libserde-551fd291178cc631.rmeta: /Users/jinyangren/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/jinyangren/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/jinyangren/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/jinyangren/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/jinyangren/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/jinyangren/z\ code/z-code/rust_core/target/release/build/serde-1271ce5b4ecddfd5/out/private.rs
+
+/Users/jinyangren/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs:
+/Users/jinyangren/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs:
+/Users/jinyangren/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs:
+/Users/jinyangren/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs:
+/Users/jinyangren/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs:
+/Users/jinyangren/z\ code/z-code/rust_core/target/release/build/serde-1271ce5b4ecddfd5/out/private.rs:
+
+# env-dep:OUT_DIR=/Users/jinyangren/z code/z-code/rust_core/target/release/build/serde-1271ce5b4ecddfd5/out

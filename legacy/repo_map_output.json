@@ -1,0 +1,235 @@
+{
+  "files": [
+    {
+      "path": "rust_core/crates/architect/src/lib.rs",
+      "score": 0.2068890984648431,
+      "definitions": [
+        "pagerank",
+        "SymbolKind",
+        "Symbol",
+        "Tag",
+        "SerializablePoint",
+        "from",
+        "TagKind",
+        "Parser",
+        "get_language",
+        "get_tags_query",
+        "extract_tags",
+        "FileAnalysis",
+        "RepoGraph",
+        "build",
+        "rank",
+        "Renderer",
+        "estimate_tokens",
+        "render",
+        "tests",
+        "test_personalized_pagerank_focus",
+        "test_stop_words_filtering",
+        "test_precision_linking_weights",
+        "test_exact_token_estimation"
+      ]
+    },
+    {
+      "path": "rust_core/crates/architect/src/pagerank.rs",
+      "score": 0.15776147442047117,
+      "definitions": [
+        "PageRankConfig",
+        "default",
+        "personalized_pagerank"
+      ]
+    },
+    {
+      "path": "rust_core/tests/integration_repo/src/db.rs",
+      "score": 0.1448726721177088,
+      "definitions": [
+        "Database",
+        "connect",
+        "query"
+      ]
+    },
+    {
+      "path": "rust_core/tests/integration_repo/src/models.rs",
+      "score": 0.06759219851151423,
+      "definitions": [
+        "User",
+        "save"
+      ]
+    },
+    {
+      "path": "rust_core/crates/architect/tests/integration_repo_focus_v2/src/models.rs",
+      "score": 0.06759219851151423,
+      "definitions": [
+        "User"
+      ]
+    },
+    {
+      "path": "rust_core/crates/architect/tests/integration_repo_focus_temp/src/models.rs",
+      "score": 0.06759219851151423,
+      "definitions": [
+        "User"
+      ]
+    },
+    {
+      "path": "rust_core/crates/architect/tests/integration_repo_focus_temp/src/utils.rs",
+      "score": 0.0381289362738118,
+      "definitions": [
+        "helper"
+      ]
+    },
+    {
+      "path": "rust_core/crates/architect/tests/integration_repo_focus_v2/src/utils.rs",
+      "score": 0.0381289362738118,
+      "definitions": [
+        "helper"
+      ]
+    },
+    {
+      "path": "rust_core/tests/integration_repo/src/utils.rs",
+      "score": 0.0381289362738118,
+      "definitions": [
+        "helper"
+      ]
+    },
+    {
+      "path": "rust_core/src/main.rs",
+      "score": 0.03466267012819975,
+      "definitions": [
+        "Args",
+        "JsonOutput",
+        "FileRank",
+        "EdgeData"
+      ]
+    },
+    {
+      "path": "rust_core/crates/architect/tests/integration_repo_focus_temp/src/main.rs",
+      "score": 0.03466267012819975,
+      "definitions": []
+    },
+    {
+      "path": "rust_core/tests/integration_repo/src/main.rs",
+      "score": 0.03466267012819975,
+      "definitions": []
+    },
+    {
+      "path": "rust_core/crates/architect/tests/integration_repo_focus_v2/src/main.rs",
+      "score": 0.03466267012819975,
+      "definitions": []
+    },
+    {
+      "path": "rust_core/crates/architect/tests/ranking_tests.rs",
+      "score": 0.03466267012819975,
+      "definitions": [
+        "setup_repo",
+        "test_ranking_integration",
+        "test_ranking_with_focus"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "rust_core/crates/architect/tests/ranking_tests.rs",
+      "target": "rust_core/crates/architect/tests/integration_repo_focus_v2/src/utils.rs",
+      "weight": 1.0
+    },
+    {
+      "source": "rust_core/crates/architect/tests/ranking_tests.rs",
+      "target": "rust_core/crates/architect/tests/integration_repo_focus_temp/src/utils.rs",
+      "weight": 1.0
+    },
+    {
+      "source": "rust_core/crates/architect/tests/ranking_tests.rs",
+      "target": "rust_core/tests/integration_repo/src/utils.rs",
+      "weight": 1.0
+    },
+    {
+      "source": "rust_core/crates/architect/tests/ranking_tests.rs",
+      "target": "rust_core/crates/architect/tests/integration_repo_focus_v2/src/models.rs",
+      "weight": 1.0
+    },
+    {
+      "source": "rust_core/crates/architect/tests/ranking_tests.rs",
+      "target": "rust_core/crates/architect/tests/integration_repo_focus_temp/src/models.rs",
+      "weight": 1.0
+    },
+    {
+      "source": "rust_core/crates/architect/tests/ranking_tests.rs",
+      "target": "rust_core/tests/integration_repo/src/models.rs",
+      "weight": 1.0
+    },
+    {
+      "source": "rust_core/crates/architect/tests/ranking_tests.rs",
+      "target": "rust_core/crates/architect/src/lib.rs",
+      "weight": 2.5
+    },
+    {
+      "source": "rust_core/crates/architect/tests/integration_repo_focus_v2/src/main.rs",
+      "target": "rust_core/crates/architect/tests/integration_repo_focus_v2/src/models.rs",
+      "weight": 4.0
+    },
+    {
+      "source": "rust_core/crates/architect/tests/integration_repo_focus_v2/src/main.rs",
+      "target": "rust_core/crates/architect/tests/integration_repo_focus_temp/src/models.rs",
+      "weight": 2.0
+    },
+    {
+      "source": "rust_core/crates/architect/tests/integration_repo_focus_v2/src/main.rs",
+      "target": "rust_core/tests/integration_repo/src/models.rs",
+      "weight": 2.0
+    },
+    {
+      "source": "rust_core/crates/architect/tests/integration_repo_focus_temp/src/main.rs",
+      "target": "rust_core/crates/architect/tests/integration_repo_focus_v2/src/models.rs",
+      "weight": 2.0
+    },
+    {
+      "source": "rust_core/crates/architect/tests/integration_repo_focus_temp/src/main.rs",
+      "target": "rust_core/crates/architect/tests/integration_repo_focus_temp/src/models.rs",
+      "weight": 4.0
+    },
+    {
+      "source": "rust_core/crates/architect/tests/integration_repo_focus_temp/src/main.rs",
+      "target": "rust_core/tests/integration_repo/src/models.rs",
+      "weight": 2.0
+    },
+    {
+      "source": "rust_core/crates/architect/src/lib.rs",
+      "target": "rust_core/tests/integration_repo/src/db.rs",
+      "weight": 3.0
+    },
+    {
+      "source": "rust_core/crates/architect/src/lib.rs",
+      "target": "rust_core/crates/architect/src/pagerank.rs",
+      "weight": 7.0
+    },
+    {
+      "source": "rust_core/crates/architect/src/pagerank.rs",
+      "target": "rust_core/crates/architect/src/lib.rs",
+      "weight": 1.5
+    },
+    {
+      "source": "rust_core/tests/integration_repo/src/models.rs",
+      "target": "rust_core/tests/integration_repo/src/db.rs",
+      "weight": 2.5
+    },
+    {
+      "source": "rust_core/tests/integration_repo/src/main.rs",
+      "target": "rust_core/crates/architect/tests/integration_repo_focus_v2/src/models.rs",
+      "weight": 2.0
+    },
+    {
+      "source": "rust_core/tests/integration_repo/src/main.rs",
+      "target": "rust_core/crates/architect/tests/integration_repo_focus_temp/src/models.rs",
+      "weight": 2.0
+    },
+    {
+      "source": "rust_core/tests/integration_repo/src/main.rs",
+      "target": "rust_core/tests/integration_repo/src/models.rs",
+      "weight": 4.0
+    },
+    {
+      "source": "rust_core/src/main.rs",
+      "target": "rust_core/crates/architect/src/lib.rs",
+      "weight": 20.0
+    }
+  ]
+}
