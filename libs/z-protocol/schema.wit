@@ -1,0 +1,14 @@
+package project-z:protocol;
+
+/// The UnifiedField represents the synchronized state of the AGI substrate.
+/// It bridges the Rust physics engine with the Holographic Shell.
+world unified-field {
+    record state {
+        entropy: float64,
+        geometry-version: u64,
+        node-count: u32,
+    }
+
+    export get-state: func() -> state;
+    import update-signal: func(delta: float64);
+}
