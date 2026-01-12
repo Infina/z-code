@@ -1,0 +1,5 @@
+# Rust build output
+/target/
+
+# Tauri build output (if present)
+/target-tauri/

@@ -1,0 +1,28 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: transparent;
+  overflow: hidden;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+}
+
+/* Make Monaco transparent so the hologram layer shows through */
+.monaco-editor,
+.monaco-editor-background,
+.monaco-editor .margin,
+.monaco-editor .monaco-scrollable-element {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+/* Reduce any default overlays */
+.monaco-editor .find-widget,
+.monaco-editor .suggest-widget,
+.monaco-editor .parameter-hints-widget {
+  backdrop-filter: blur(8px);
+}

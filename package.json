@@ -28,6 +28,7 @@
   "pnpm": {
     "onlyBuiltDependencies": [
       "electron",
+      "esbuild",
       "keytar",
       "drivelist",
       "node-pty",
